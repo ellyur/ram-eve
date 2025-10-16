@@ -66,7 +66,7 @@ const HeroSection = () => {
         </div>
 
         <div className={`transition-all duration-700 ${(animationsEnabled && showElements) ? 'animate-fade-up opacity-100' : (!animationsEnabled ? 'opacity-100' : 'opacity-0')}`}>
-          <div className="glass-lavender border border-white/20 rounded-2xl p-8 mb-10 max-w-lg mx-auto shadow-2xl">
+          <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-8 mb-10 max-w-lg mx-auto shadow-2xl">
             <div className="space-y-3">
               <div className="text-center">
                 <p className="text-lg sm:text-xl text-white font-light tracking-wide font-times" data-testid="text-date">
