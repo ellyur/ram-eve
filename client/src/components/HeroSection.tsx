@@ -97,7 +97,7 @@ const HeroSection = () => {
                 <span></span>
                 <span></span>
                 <span className="bg-card"></span>
-                <span>RSVP</span>
+                <span className="text-[#ffffff]">RSVP</span>
               </button>
             </a>
           </div>
