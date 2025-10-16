@@ -4,7 +4,7 @@ const EntourageSection = () => {
   return (
     <motion.section 
       id="entourage" 
-      className="bg-white py-12 px-4 relative overflow-hidden"
+      className="py-12 px-4 relative overflow-hidden bg-[#eee3ef]"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1, delay: 8.5 }}
