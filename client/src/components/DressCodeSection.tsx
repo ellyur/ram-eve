@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 
 import guestsWomenImage from "@assets/guests-woman_1760623501428.png";
-import principalSponsorsWomenImage from "@assets/woman-principal sponsors_1760623501428.png";
+import principalSponsorsWomenImage from "@assets/principal-sponsors woman_1760627717463.png";
 import guestsMenImage from "@assets/male-guests_1760623501429.png";
 import principalSponsorsMenImage from "@assets/principalp-sponsors_1760623501429.png";
 
