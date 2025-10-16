@@ -22,11 +22,11 @@ const TimelineCard: React.FC<TimelineCardProps> = ({ timelineEvent, i }) => {
 
     const getEventDescription = (eventName: string): string => {
         const descriptions: Record<string, string> = {
-            "Guest Arrival": "We highly encourage you to arrive 30 minutes before the ceremony starts. Please be seated by 2:00 PM.",
-            "Wedding Ceremony": "Witness our vows and the beginning of our journey together as we exchange rings and promises at the Parish of the Holy Family.",
-            "Photo Session": "Capture beautiful moments with the newlyweds and wedding party. Professional photography session for cherished memories.",
-            "Cocktail Hour": "Relax and mingle with other guests while enjoying refreshing drinks and light appetizers.",
-            "Reception": "Join us at Casa Dominguez for dinner, heartfelt toasts, and dancing as we celebrate our union together."
+            "Guest Arrival": "We highly encourage you to arrive by 3:00 PM. Please be seated before the ceremony starts at 3:30 PM.",
+            "Wedding Ceremony": "Witness our vows and the beginning of our journey together as we exchange rings and promises at the Parish of San Nicholas de Tolentino.",
+            "Grazing / Photoshoot / Games": "Enjoy food, capture beautiful moments with the newlyweds and wedding party, and participate in fun activities.",
+            "Dinner / Reception Activities": "Join us at La Familia Beach Resort for dinner, heartfelt toasts, and celebration as we share this joyous occasion.",
+            "After Party with Live Band": "Dance the night away with live music! The celebration continues with an exciting after party."
         };
         return descriptions[eventName] || "Join us for this special moment in our lives.";
     };
@@ -123,37 +123,37 @@ const container: React.CSSProperties = {
 
 const timelineEvents: TimelineEvent[] = [
     {
-        time: "1:30 PM",
+        time: "3:00 PM",
         event: "Guest Arrival",
         icon: Clock,
         hueA: 40,
         hueB: 40,
     },
     {
-        time: "2:00 PM", 
+        time: "3:30 PM", 
         event: "Wedding Ceremony",
         icon: Heart,
         hueA: 40,
         hueB: 40,
     },
     {
-        time: "3:30 PM",
-        event: "Photo Session", 
+        time: "4:30 PM - 6:30 PM",
+        event: "Grazing / Photoshoot / Games", 
         icon: Camera,
         hueA: 40,
         hueB: 40,
     },
     {
-        time: "4:30 PM",
-        event: "Cocktail Hour",
-        icon: Wine,
+        time: "7:00 PM",
+        event: "Dinner / Reception Activities",
+        icon: Utensils,
         hueA: 40,
         hueB: 40,
     },
     {
-        time: "5:30 PM",
-        event: "Reception",
-        icon: PartyPopper,
+        time: "10:00 PM - Onwards",
+        event: "After Party with Live Band",
+        icon: Music,
         hueA: 40,
         hueB: 40,
     },

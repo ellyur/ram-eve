@@ -11,25 +11,25 @@ const VenueSection = () => {
   const venues = [
     {
       title: 'Ceremony',
-      name: 'Parish of the Holy Family',
-      address: 'Imus, Cavite',
+      name: 'Parish of San Nicholas de Tolentino',
+      address: 'Tobias Fornier, Antique',
       image: ceremonyImage,
-      mapUrl: 'https://maps.app.goo.gl/9wZ7WhKAviVYcMP78',
-      mapEmbed: 'https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Parish+of+the+Holy+Family,Imus+Cavite&zoom=15',
-      description: 'Join us at the Parish of the Holy Family for our sacred wedding ceremony. This beautiful church will witness our vows of eternal love as we begin our journey together.',
-      details: 'The ceremony begins promptly at 2:00 PM. Please arrive early to be seated. Dress code: Black Formal Attire.',
-      startTime: '2:00 PM'
+      mapUrl: 'https://www.google.com/maps/search/?api=1&query=Parish+of+San+Nicholas+de+Tolentino+Tobias+Fornier+Antique',
+      mapEmbed: 'https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Parish+of+San+Nicholas+de+Tolentino,Tobias+Fornier+Antique&zoom=15',
+      description: 'Join us at the Parish of San Nicholas de Tolentino for our sacred wedding ceremony. This beautiful church will witness our vows of eternal love as we begin our journey together.',
+      details: 'The ceremony begins promptly at 3:30 PM. Please arrive by 3:00 PM to be seated. Dress code: Pastel Colors.',
+      startTime: '3:30 PM'
     },
     {
       title: 'Reception',
-      name: 'Casa Dominguez',
-      address: 'Imus, Cavite',
+      name: 'La Familia Beach Resort',
+      address: 'Atabay, Tobias Fornier, Antique',
       image: receptionImage,
-      mapUrl: 'https://maps.app.goo.gl/xWTnYdJnAFcQ6VaG8',
-      mapEmbed: 'https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Casa+Dominguez,Imus+Cavite&zoom=15',
-      description: 'Celebrate with us at Casa Dominguez, an elegant venue where we will share joy, laughter, and create unforgettable memories together.',
-      details: 'Join us immediately following the ceremony for an evening of fine dining, dancing, and celebration.',
-      startTime: '5:30 PM'
+      mapUrl: 'https://www.google.com/maps/search/?api=1&query=La+Familia+Beach+Resort+Atabay+Tobias+Fornier+Antique',
+      mapEmbed: 'https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=La+Familia+Beach+Resort,Atabay+Tobias+Fornier+Antique&zoom=15',
+      description: 'Celebrate with us at La Familia Beach Resort, a beautiful beachfront venue where we will share joy, laughter, and create unforgettable memories together.',
+      details: 'Join us for grazing, photoshoot, and games starting at 4:30 PM, followed by dinner and reception activities at 7:00 PM.',
+      startTime: '4:30 PM'
     }
   ];
 
