@@ -1,7 +1,7 @@
 import { TypeAnimation } from 'react-type-animation';
 import { useState } from 'react';
 import { useAnimationContext } from '@/contexts/AnimationContext';
-import heroVideo from '@assets/1st Section_1760601565552.mp4';
+import heroVideo from '@assets/hero-background_1760607783443.mp4';
 
 const HeroSection = () => {
   const [showElements, setShowElements] = useState(false);
