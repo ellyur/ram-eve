@@ -1,9 +1,4 @@
 import { motion } from 'framer-motion';
-import prenup1 from '@assets/2nd Section 1_1760522459683.jpg';
-import prenup2 from '@assets/2nd Section 2_1760522459683.jpg';
-import prenup3 from '@assets/2nd Section 3_1760522459684.jpg';
-import monogram from '../assets/I&R-monogram.png';
-
 import MONOGRAM_removebg_preview from "@assets/MONOGRAM-removebg-preview.png";
 
 interface RusticInvitationRevealProps {
@@ -11,12 +6,6 @@ interface RusticInvitationRevealProps {
 }
 
 const RusticInvitationReveal = ({ animationsEnabled }: RusticInvitationRevealProps) => {
-  const polaroids = [
-    { src: prenup1, alt: 'Soulmates', rotation: -8 },
-    { src: prenup2, alt: 'Forever', rotation: 2 },
-    { src: prenup3, alt: 'Beloved', rotation: -5 }
-  ];
-
   return (
     <div className="relative flex flex-col items-center justify-center min-h-screen py-12 px-4">
       {/* Rustic Wood Background Element */}
@@ -33,75 +22,6 @@ const RusticInvitationReveal = ({ animationsEnabled }: RusticInvitationRevealPro
           </defs>
           <rect width="100%" height="100%" fill="url(#woodgrain)"/>
         </svg>
-      </div>
-      {/* Twine/String across top */}
-      <div
-        className="absolute top-32 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-primary/40 to-transparent"
-        style={{ transformOrigin: 'center' }}
-      >
-        <div className="absolute inset-0 shadow-lg" style={{ 
-          boxShadow: '0 2px 4px rgba(0,0,0,0.2)' 
-        }}/>
-      </div>
-      {/* Polaroid Photos */}
-      <div className="relative z-10 mb-16 flex flex-wrap items-center justify-center gap-6 max-w-5xl">
-        {polaroids.map((polaroid, index) => (
-        <div
-          key={index}
-          className="relative group"
-          style={{ 
-            transform: `rotate(${polaroid.rotation}deg)` 
-          }}
-          data-testid={`polaroid-${index}`}
-        >
-          {/* Clip/Pin on top of polaroid */}
-          <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 z-20">
-            <svg width="30" height="35" viewBox="0 0 30 35" className="drop-shadow-md">
-              <path 
-                d="M15,5 L10,0 L5,5 L5,15 Q5,20 7,22 L15,30 L23,22 Q25,20 25,15 L25,5 L20,0 Z" 
-                fill="#8B7355"
-                stroke="#5D4E37"
-                strokeWidth="1"
-              />
-              <circle cx="15" cy="12" r="3" fill="#5D4E37"/>
-            </svg>
-          </div>
-
-          {/* Polaroid Frame */}
-          <div 
-            className="bg-white p-3 pb-12 shadow-2xl transform hover:scale-105 transition-transform duration-300"
-            style={{
-              boxShadow: '0 10px 40px rgba(0,0,0,0.3), 0 0 0 1px rgba(0,0,0,0.1)'
-            }}
-          >
-            <div className="relative overflow-hidden bg-gray-100" style={{ width: '220px', height: '220px' }}>
-              <img
-                src={polaroid.src}
-                alt={polaroid.alt}
-                className="w-full h-full object-cover"
-              />
-              {/* Vintage photo effect */}
-              <div className="absolute inset-0 bg-gradient-to-br from-amber-100/20 via-transparent to-amber-900/10 pointer-events-none mix-blend-overlay"/>
-            </div>
-
-            {/* Handwritten-style caption */}
-            <div className="mt-4 text-center">
-              <p 
-                className="text-gray-600 italic text-[18px]"
-                style={{ fontFamily: 'Brush Script MT, cursive' }}
-              >
-                {polaroid.alt}
-              </p>
-            </div>
-          </div>
-
-          {/* Tape pieces on corners */}
-          <div className="absolute -top-1 -left-1 w-8 h-6 bg-yellow-100/60 transform -rotate-45 opacity-70"
-               style={{ boxShadow: 'inset 0 1px 2px rgba(0,0,0,0.1)' }}/>
-          <div className="absolute -top-1 -right-1 w-8 h-6 bg-yellow-100/60 transform rotate-45 opacity-70"
-               style={{ boxShadow: 'inset 0 1px 2px rgba(0,0,0,0.1)' }}/>
-        </div>
-        ))}
       </div>
       {/* Rustic Paper Invitation */}
       <div
