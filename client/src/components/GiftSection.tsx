@@ -1,5 +1,7 @@
 import { Heart, Gift, Home } from 'lucide-react';
 import { motion } from 'framer-motion';
+import qr1 from '@assets/qr1_1760626246219.jpg';
+import qr2 from '@assets/qr2_1760626246220.jpg';
 
 const GiftSection = () => {
   return (
@@ -44,7 +46,13 @@ const GiftSection = () => {
             {/* Main Message */}
             <div className="space-y-6">
               <p className="text-xl font-body text-primary-foreground leading-relaxed">
-                As love is what the night is all about, your presence is one we can't celebrate without. But should you still believe that gift is worth giving, monetary gift for our future is a delightful blessing.
+                Your presence at our wedding means the world to us!
+              </p>
+              <p className="text-xl font-body text-primary-foreground leading-relaxed">
+                If you wish to give a gift, we would truly appreciate your blessing in monetary form, which will help us start our new chapter together.
+              </p>
+              <p className="text-xl font-body text-primary-foreground leading-relaxed">
+                Thank you for your love and generosity!
               </p>
             </div>
 
@@ -59,24 +67,41 @@ const GiftSection = () => {
 
         {/* Payment Options */}
         <motion.div 
-          className="max-w-md mx-auto mb-12"
+          className="max-w-4xl mx-auto mb-12 grid md:grid-cols-2 gap-8"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut", delay: 10.4 }}
         >
-          {/* GCash Payment */}
+          {/* InstaPay QR Code 1 */}
           <div>
             <div className="glass-mint border border-border rounded-xl p-8 shadow-soft hover-elegant">
-              <h3 className="text-lg font-display font-semibold text-gold-bright mb-4 text-center">GCash</h3>
+              <h3 className="text-lg font-display font-semibold text-gold-bright mb-4 text-center">InstaPay</h3>
               <div className="text-center mb-4">
                 <img 
-                  src="https://res.cloudinary.com/dpzxdmqqg/image/upload/v1755332552/532087756_3192844410882952_149850844084049446_n_v5dj7e.jpg"
-                  alt="GCash QR Code"
+                  src={qr1}
+                  alt="InstaPay QR Code"
                   className="w-64 h-64 mx-auto object-contain"
                 />
               </div>
               <p className="text-primary-foreground leading-relaxed text-center">
-                Scan the QR code above to send your generous gift via GCash
+                Scan the QR code above to send your generous gift
+              </p>
+            </div>
+          </div>
+
+          {/* InstaPay QR Code 2 */}
+          <div>
+            <div className="glass-mint border border-border rounded-xl p-8 shadow-soft hover-elegant">
+              <h3 className="text-lg font-display font-semibold text-gold-bright mb-4 text-center">InstaPay</h3>
+              <div className="text-center mb-4">
+                <img 
+                  src={qr2}
+                  alt="InstaPay QR Code"
+                  className="w-64 h-64 mx-auto object-contain"
+                />
+              </div>
+              <p className="text-primary-foreground leading-relaxed text-center">
+                Scan the QR code above to send your generous gift
               </p>
             </div>
           </div>

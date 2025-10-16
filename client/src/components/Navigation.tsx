@@ -30,8 +30,10 @@ const Navigation = () => {
         setIsVisible(false);
       }
 
-      // Update active section
-      const sections = navItems.map(item => item.href.slice(1));
+      // Update active section (only for hash links, not external links)
+      const sections = navItems
+        .filter(item => item.href.startsWith('#'))
+        .map(item => item.href.slice(1));
       const currentSection = sections.find(section => {
         const element = document.getElementById(section);
         if (element) {
@@ -117,7 +119,7 @@ const Navigation = () => {
                   key={item.name}
                   onClick={() => scrollToSection(item.href)}
                   className={`px-4 py-2 text-sm font-medium rounded-lg transition-all duration-300 hover:bg-primary/20 hover:text-accent ${
-                    activeSection === item.href.slice(1)
+                    item.href.startsWith('#') && activeSection === item.href.slice(1)
                       ? 'text-primary bg-primary/15'
                       : 'text-muted-foreground'
                   }`}
@@ -151,7 +153,7 @@ const Navigation = () => {
                 key={item.name}
                 onClick={() => scrollToSection(item.href)}
                 className={`block w-full text-left px-3 py-2 text-base font-medium rounded-md transition-all duration-300 hover:bg-primary/20 hover:text-accent ${
-                  activeSection === item.href.slice(1)
+                  item.href.startsWith('#') && activeSection === item.href.slice(1)
                     ? 'text-primary bg-primary/15'
                     : 'text-muted-foreground'
                 }`}

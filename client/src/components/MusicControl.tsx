@@ -92,11 +92,11 @@ const MusicControl = ({ audioRef }: MusicControlProps) => {
                 initial={{ opacity: 0, x: 20 }}
                 animate={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: 20 }}
-                className="flex items-center gap-2 bg-black/50 backdrop-blur-md p-2 rounded-full pr-3 md:pr-4"
+                className="flex items-center gap-2 glass-lavender p-2 rounded-full pr-3 md:pr-4"
               >
                 <button 
                   onClick={toggleMute} 
-                  className="text-white p-1.5 md:p-2 rounded-full hover:bg-white/10 transition-colors"
+                  className="text-primary-foreground p-1.5 md:p-2 rounded-full hover:bg-primary/20 transition-colors"
                   aria-label={isMuted ? 'Unmute' : 'Mute'}
                   data-testid="button-mute"
                 >
@@ -113,9 +113,9 @@ const MusicControl = ({ audioRef }: MusicControlProps) => {
                   step="0.01"
                   value={volume}
                   onChange={handleVolumeChange}
-                  className="w-16 md:w-24 h-1 bg-white/30 rounded-full appearance-none cursor-pointer accent-white"
+                  className="w-16 md:w-24 h-1 rounded-full appearance-none cursor-pointer"
                   style={{
-                    background: `linear-gradient(to right, white 0%, white ${volume * 100}%, rgba(255, 255, 255, 0.3) ${volume * 100}%, rgba(255, 255, 255, 0.3) 100%)`
+                    background: `linear-gradient(to right, hsl(25, 80%, 72%) 0%, hsl(25, 80%, 72%) ${volume * 100}%, hsl(270, 40%, 88%) ${volume * 100}%, hsl(270, 40%, 88%) 100%)`
                   }}
                   data-testid="input-volume"
                   aria-label="Volume control"
@@ -126,12 +126,12 @@ const MusicControl = ({ audioRef }: MusicControlProps) => {
           
           <motion.button
             onClick={toggleMusic}
-            className="w-12 h-12 md:w-14 md:h-14 rounded-full flex items-center justify-center text-white transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-white/50"
+            className="w-12 h-12 md:w-14 md:h-14 rounded-full flex items-center justify-center text-primary-foreground transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-primary/50"
             style={{
-              background: 'linear-gradient(135deg, rgba(23, 22, 16, 0.9) 0%, rgba(51, 51, 51, 0.8) 100%)',
+              background: 'linear-gradient(135deg, hsl(25, 80%, 72%) 0%, hsl(270, 55%, 82%) 100%)',
               backdropFilter: 'blur(10px)',
-              boxShadow: '0 4px 16px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.1)',
-              border: '1px solid rgba(255, 255, 255, 0.2)'
+              boxShadow: '0 4px 16px rgba(246, 179, 168, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.3)',
+              border: '1px solid rgba(246, 179, 168, 0.3)'
             }}
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
