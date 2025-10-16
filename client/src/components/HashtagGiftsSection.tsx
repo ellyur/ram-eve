@@ -1,5 +1,7 @@
 import { motion } from 'framer-motion';
 import { Camera, Gift } from 'lucide-react';
+import qr1 from '@assets/qr1_1760626993003.jpg';
+import qr2 from '@assets/qr2_1760626993005.jpg';
 
 const HashtagGiftsSection = () => {
   return (
@@ -101,18 +103,40 @@ const HashtagGiftsSection = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 1.1 }}
           >
-            <p 
-              className="text-lg text-foreground leading-relaxed"
-              data-testid="text-gifts-message"
-            >
-              With all that we have, we've been truly blessed.
-              <br />
-              Your presence and prayers are all that we request.
-              <br />
-              But if to give nonetheless,
-              <br />
-              Monetary gift is one we suggest.
-            </p>
+            <div className="space-y-4 mb-8">
+              <p 
+                className="text-lg text-foreground leading-relaxed"
+                data-testid="text-gifts-message"
+              >
+                Your presence at our wedding means the world to us!
+              </p>
+              <p className="text-lg text-foreground leading-relaxed">
+                If you wish to give a gift, we would truly appreciate your blessing in monetary form, which will help us start our new chapter together.
+              </p>
+              <p className="text-lg text-foreground leading-relaxed">
+                Thank you for your love and generosity!
+              </p>
+            </div>
+
+            {/* QR Codes */}
+            <div className="grid md:grid-cols-2 gap-6 mt-8">
+              <div className="bg-white/60 rounded-lg p-4">
+                <h4 className="text-sm font-semibold text-primary mb-3 text-center">InstaPay</h4>
+                <img 
+                  src={qr1}
+                  alt="InstaPay QR Code 1"
+                  className="w-48 h-48 mx-auto object-contain"
+                />
+              </div>
+              <div className="bg-white/60 rounded-lg p-4">
+                <h4 className="text-sm font-semibold text-primary mb-3 text-center">InstaPay</h4>
+                <img 
+                  src={qr2}
+                  alt="InstaPay QR Code 2"
+                  className="w-48 h-48 mx-auto object-contain"
+                />
+              </div>
+            </div>
           </motion.div>
         </motion.div>
       </div>
