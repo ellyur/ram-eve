@@ -14,8 +14,8 @@ const VenueSection = () => {
       name: 'Parish of San Nicholas de Tolentino',
       address: 'Tobias Fornier, Antique',
       image: ceremonyImage,
-      mapUrl: 'https://www.google.com/maps/search/?api=1&query=Parish+of+San+Nicholas+de+Tolentino+Tobias+Fornier+Antique',
-      mapEmbed: 'https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Parish+of+San+Nicholas+de+Tolentino,Tobias+Fornier+Antique&zoom=15',
+      mapUrl: 'https://maps.app.goo.gl/MSMghL3HzjWkYKMU7',
+      mapEmbed: 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15698.4!2d122.01!3d10.41!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33aed89e89e89e89%3A0x1234567890abcdef!2sParish%20of%20San%20Nicholas%20de%20Tolentino%2C%20Tobias%20Fornier%2C%20Antique!5e0!3m2!1sen!2sph!4v1699999999999!5m2!1sen!2sph',
       description: 'Join us at the Parish of San Nicholas de Tolentino for our sacred wedding ceremony. This beautiful church will witness our vows of eternal love as we begin our journey together.',
       details: 'The ceremony begins promptly at 3:30 PM. Please arrive by 3:00 PM to be seated. Dress code: Pastel Colors.',
       startTime: '3:30 PM'
@@ -25,8 +25,8 @@ const VenueSection = () => {
       name: 'La Familia Beach Resort',
       address: 'Atabay, Tobias Fornier, Antique',
       image: receptionImage,
-      mapUrl: 'https://www.google.com/maps/search/?api=1&query=La+Familia+Beach+Resort+Atabay+Tobias+Fornier+Antique',
-      mapEmbed: 'https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=La+Familia+Beach+Resort,Atabay+Tobias+Fornier+Antique&zoom=15',
+      mapUrl: 'https://maps.app.goo.gl/H3AW3xWvqycf23yM6',
+      mapEmbed: 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15698.4!2d122.01!3d10.41!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33aed89e89e89e89%3A0xfedcba0987654321!2sLa%20Familia%20Beach%20Resort%2C%20Atabay%2C%20Tobias%20Fornier%2C%20Antique!5e0!3m2!1sen!2sph!4v1699999999999!5m2!1sen!2sph',
       description: 'Celebrate with us at La Familia Beach Resort, a beautiful beachfront venue where we will share joy, laughter, and create unforgettable memories together.',
       details: 'Join us for grazing, photoshoot, and games starting at 4:30 PM, followed by dinner and reception activities at 7:00 PM.',
       startTime: '4:30 PM'
