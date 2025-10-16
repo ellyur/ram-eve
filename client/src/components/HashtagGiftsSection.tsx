@@ -15,7 +15,6 @@ const HashtagGiftsSection = () => {
         <div className="absolute top-1/4 right-1/4 w-64 h-64 border border-primary/30 rounded-full"></div>
         <div className="absolute bottom-1/4 left-1/4 w-48 h-48 border border-primary/30 rounded-full"></div>
       </div>
-
       <div className="max-w-4xl mx-auto relative z-10 space-y-12">
         {/* Oh Snap! Section */}
         <motion.div 
@@ -97,7 +96,7 @@ const HashtagGiftsSection = () => {
           </motion.h2>
 
           <motion.div
-            className="glass-mint border border-border/50 rounded-xl p-6 max-w-2xl mx-auto"
+            className="glass-mint border border-border/50 rounded-xl p-6 max-w-2xl mx-auto bg-[#e6e8ed]"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 1.1 }}

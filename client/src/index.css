@@ -346,27 +346,27 @@
     border: 1px solid rgba(246, 179, 168, 0.2);
   }
 
-  /* Pastel Glass Containers */
+  /* Pastel Glass Containers - Almost White */
   .glass-lavender {
-    background: rgba(237, 225, 245, 0.75);
+    background: rgba(250, 248, 252, 0.85);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
   }
 
   .glass-peach {
-    background: rgba(255, 235, 225, 0.75);
+    background: rgba(255, 252, 250, 0.85);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
   }
 
   .glass-mint {
-    background: rgba(225, 245, 235, 0.75);
+    background: rgba(248, 253, 250, 0.85);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
   }
 
   .glass-sky {
-    background: rgba(230, 240, 250, 0.75);
+    background: rgba(248, 251, 255, 0.85);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
   }
