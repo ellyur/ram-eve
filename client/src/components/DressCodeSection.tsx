@@ -281,9 +281,7 @@ const DressCodeSection = () => {
                   <h4 className="text-base font-display font-semibold text-foreground mb-2">
                     Principal Sponsors - Men
                   </h4>
-                  <p className="text-sm text-foreground/70">
-                    Long sleeves, suit with or without tie in pastel colors. Slacks can also be in brown shades.
-                  </p>
+                  <p className="text-sm text-foreground/70">Long sleeves, suit with or without tie in pastel colors</p>
                 </div>
               </div>
             </div>
