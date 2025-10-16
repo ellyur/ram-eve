@@ -170,3 +170,10 @@ Successfully migrated from Lovable to Replit environment:
   - Shows "Perfect Score!" message only for 5/5, "Amazing Score!" with actual score for 4/5
   - Implemented functional state updates for reliable score tracking
   - Adjusted invitation paper dimensions: wider (max-w-5xl) and shorter (reduced padding and spacing)
+- **2025-10-16**: Removed prenup/engagement sections for clients without prenup photos:
+  - Removed three polaroid images from RusticInvitationReveal component (You're Invited section now shows only the invitation paper)
+  - Removed ImageLoop component from Index page (scrolling image carousel section)
+  - Removed StorySection component from Index page (Our Commitment section with horizontal scroll)
+  - Removed MemorableMomentsSection component from Index page (Save the Date Photos masonry gallery)
+  - Updated page flow: Hero → Invitation → Countdown → Cover → Timeline → Venue → DressCode → Hashtag/Gifts → RSVP → Entourage → FAQ → Footer
+  - Website now optimized for weddings without prenup photography
