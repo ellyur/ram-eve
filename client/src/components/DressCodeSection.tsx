@@ -48,7 +48,7 @@ const DressCodeSection = () => {
               transition={{ duration: 0.8, ease: "easeOut", delay: 8.1 }}
               whileHover={{ scale: 1.02 }}
             >
-              <div className="border border-border rounded-xl p-8 shadow-soft hover-elegant transition-all duration-500 h-full relative bg-[#FFF9F0] dark:bg-gray-900/80">
+              <div className="border border-gray-200 rounded-xl p-8 shadow-soft hover-elegant transition-all duration-500 h-full relative bg-[#FFF9F0] dark:bg-[#FFF9F0]">
                 <div className="text-center">
                   <motion.div
                     initial={{ scale: 0.8 }}
@@ -85,7 +85,7 @@ const DressCodeSection = () => {
               transition={{ duration: 0.8, ease: "easeOut", delay: 8.2 }}
               whileHover={{ scale: 1.02 }}
             >
-              <div className="border border-border rounded-xl p-8 shadow-soft hover-elegant transition-all duration-500 h-full relative bg-[#FFF9F0] dark:bg-gray-900/80">
+              <div className="border border-gray-200 rounded-xl p-8 shadow-soft hover-elegant transition-all duration-500 h-full relative bg-[#FFF9F0] dark:bg-[#FFF9F0]">
                 <div className="text-center">
                   <motion.div
                     initial={{ scale: 0.8 }}
@@ -136,7 +136,7 @@ const DressCodeSection = () => {
               transition={{ duration: 0.8, ease: "easeOut", delay: 8.4 }}
               whileHover={{ scale: 1.02 }}
             >
-              <div className="border border-border rounded-xl p-8 shadow-soft hover-elegant transition-all duration-500 h-full relative bg-[#FFF9F0] dark:bg-gray-900/80">
+              <div className="border border-gray-200 rounded-xl p-8 shadow-soft hover-elegant transition-all duration-500 h-full relative bg-[#FFF9F0] dark:bg-[#FFF9F0]">
                 <div className="text-center">
                   <motion.div
                     initial={{ scale: 0.8 }}
@@ -173,7 +173,7 @@ const DressCodeSection = () => {
               transition={{ duration: 0.8, ease: "easeOut", delay: 8.5 }}
               whileHover={{ scale: 1.02 }}
             >
-              <div className="border border-border rounded-xl p-8 shadow-soft hover-elegant transition-all duration-500 h-full relative bg-[#FFF9F0] dark:bg-gray-900/80">
+              <div className="border border-gray-200 rounded-xl p-8 shadow-soft hover-elegant transition-all duration-500 h-full relative bg-[#FFF9F0] dark:bg-[#FFF9F0]">
                 <div className="text-center">
                   <motion.div
                     initial={{ scale: 0.8 }}
