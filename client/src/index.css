@@ -2,85 +2,85 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Modern Elegant Design System - White & Dark Gray */
+/* Modern Elegant Design System - Soft Pastel Theme */
 
 @layer base {
   :root {
-    /* 70-20-10 Color Rule: Elegant White & Gray Theme */
+    /* 70-20-10 Color Rule: Dreamy Pastel Theme */
     
-    /* 70% PRIMARY - Pure White Background */
-    --background: 0 0% 100%; /* Pure white background */
-    --foreground: 0 0% 20%; /* #333333 dark gray text */
+    /* 70% PRIMARY - Soft Pastel Backgrounds (Almost White) */
+    --background: 340 40% 97%; /* Barely pink, almost white */
+    --foreground: 0 0% 30%; /* Soft charcoal text */
 
     /* Card Colors - Primary Palette */
-    --card: 0 0% 98%; /* Very light gray cards */
-    --card-foreground: 0 0% 20%; /* #333333 text on cards */
+    --card: 270 30% 97%; /* Ultra-light lavender cards */
+    --card-foreground: 25 10% 25%; /* Warm gray text on cards */
 
     /* Popover Colors - Primary Palette */
-    --popover: 0 0% 100%; /* White popover */
-    --popover-foreground: 0 0% 20%; /* #333333 text */
+    --popover: 0 0% 98%; /* Near-white popover */
+    --popover-foreground: 0 0% 30%; /* Soft charcoal text */
 
     /* Brand Color */
-    --brand: 0 0% 20%; /* #333333 - Main brand color */
+    --brand: 25 75% 70%; /* Soft peach - Main brand color */
     
-    /* 20% SECONDARY - Dark Gray (Supporting) */
-    --primary: 0 0% 20%; /* #333333 primary */
-    --primary-foreground: 0 0% 100%; /* White text on dark gray */
+    /* 20% SECONDARY - Soft Peach (Supporting) */
+    --primary: 25 75% 75%; /* Soft peach primary */
+    --primary-foreground: 0 0% 20%; /* Dark text on peach */
 
     /* Secondary Colors - Supporting Palette */
-    --secondary: 0 0% 30%; /* Lighter gray secondary */
-    --secondary-foreground: 0 0% 100%; /* White text on gray */
+    --secondary: 200 50% 85%; /* Soft sky blue secondary */
+    --secondary-foreground: 0 0% 25%; /* Dark text on blue */
 
     /* Muted Colors - Supporting Palette */
-    --muted: 0 0% 95%; /* Light gray muted */
-    --muted-foreground: 0 0% 40%; /* Medium gray text */
+    --muted: 140 20% 92%; /* Very light mint muted */
+    --muted-foreground: 0 0% 50%; /* Medium gray text */
 
-    /* 10% ACCENT - Dark Gray Accent (Standout Elements & CTAs) */
-    --accent: 0 0% 20%; /* #333333 accent */
-    --accent-foreground: 0 0% 100%; /* White text */
+    /* 10% ACCENT - Sage Green Accent (Standout Elements & CTAs) */
+    --accent: 140 30% 70%; /* Soft sage green accent */
+    --accent-foreground: 0 0% 20%; /* Dark text on green */
 
-    /* Gray/Special Accent - for CTAs and highlights */
-    --gold: 0 0% 20%; /* #333333 for buttons */
-    --gold-foreground: 0 0% 100%; /* White text on dark gray */
+    /* Pastel Accent - for CTAs and highlights */
+    --gold: 25 75% 75%; /* Soft peach for buttons */
+    --gold-foreground: 0 0% 20%; /* Dark text on peach */
     
-    /* Bright Gray - for emphasis */
-    --gold-bright: 0 0% 25%; /* Slightly lighter gray */
+    /* Bright Pastel - for emphasis */
+    --gold-bright: 25 80% 70%; /* Slightly brighter peach */
 
-    /* Natural Earth Palette - Soft accents */
-    --rose-gold: 0 0% 90%; /* Soft light gray */
-    --rose-gold-dark: 0 0% 80%; /* Darker light gray */
-    --amber-glow: 0 0% 75%; /* Medium light gray */
-    --warm-light: 0 0% 85%; /* Warm light gray */
+    /* Natural Earth Palette - Soft pastel accents */
+    --rose-gold: 340 70% 88%; /* Soft blush pink */
+    --rose-gold-dark: 340 60% 75%; /* Medium blush */
+    --amber-glow: 48 90% 88%; /* Soft butter yellow */
+    --warm-light: 25 85% 90%; /* Warm peachy light */
 
-    /* Natural Accents Palette - Organic colors */
-    --city-blue: 0 0% 70%; /* Gray accent */
-    --city-cyan: 0 0% 65%; /* Gray accent */
-    --city-amber: 0 0% 60%; /* Gray accent */
-    --city-purple: 0 0% 50%; /* Medium gray */
+    /* Natural Accents Palette - Pastel colors */
+    --city-blue: 200 50% 82%; /* Soft sky blue */
+    --city-cyan: 180 40% 85%; /* Soft aqua */
+    --city-amber: 48 80% 85%; /* Soft yellow */
+    --city-purple: 270 50% 85%; /* Soft lavender */
 
     /* Destructive */
-    --destructive: 0 65% 50%;
+    --destructive: 0 65% 60%;
     --destructive-foreground: 0 0% 100%;
 
     /* Borders & Inputs */
-    --border: 0 0% 90%; /* Light gray border */
-    --input: 0 0% 98%; /* Very light gray input */
-    --ring: 0 0% 20%; /* #333333 accent ring */
+    --border: 270 30% 90%; /* Light lavender border */
+    --input: 0 0% 98%; /* Near-white input */
+    --ring: 25 75% 70%; /* Soft peach accent ring */
 
     /* Border Radius */
     --radius: 0.75rem;
 
-    /* White & Gray Gradients */
-    --gradient-elegant: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 0%, 98%));
-    --gradient-gold: linear-gradient(135deg, hsl(0, 0%, 20%), hsl(0, 0%, 30%));
-    --gradient-night: linear-gradient(180deg, hsl(0, 0%, 100%) 0%, hsl(0, 0%, 98%) 100%);
-    --gradient-bokeh: radial-gradient(ellipse at center, hsl(0, 0%, 20%) 0%, transparent 60%);
+    /* Pastel Gradients */
+    --gradient-elegant: linear-gradient(135deg, hsl(340, 40%, 97%), hsl(270, 30%, 97%));
+    --gradient-gold: linear-gradient(135deg, hsl(25, 75%, 75%), hsl(48, 80%, 80%));
+    --gradient-night: linear-gradient(180deg, hsl(340, 40%, 97%) 0%, hsl(200, 40%, 96%) 100%);
+    --gradient-bokeh: radial-gradient(ellipse at center, hsl(25, 75%, 75%) 0%, transparent 60%);
 
-    /* Elegant Gray Shadows */
-    --shadow-elegant: 0 20px 50px -10px rgba(51, 51, 51, 0.15);
-    --shadow-soft: 0 10px 30px -5px rgba(51, 51, 51, 0.1);
-    --shadow-warm: 0 15px 40px -8px rgba(51, 51, 51, 0.12);
-    --shadow-glow: 0 0 30px rgba(51, 51, 51, 0.2);
+    /* Soft Pastel Shadows */
+    --shadow-elegant: 0 20px 50px -10px rgba(246, 179, 168, 0.25);
+    --shadow-soft: 0 10px 30px -5px rgba(224, 176, 255, 0.2);
+    --shadow-warm: 0 15px 40px -8px rgba(255, 220, 176, 0.22);
+    --shadow-glow: 0 0 30px rgba(246, 179, 168, 0.3);
 
     /* Elegant Typography Scale */
     --font-display: 'Boska', 'Cormorant Garamond', serif; /* Headers - Boska 700 */
@@ -92,14 +92,14 @@
     --transition-elegant: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 
-    --sidebar-background: 0 0% 98%;
-    --sidebar-foreground: 0 0% 20%;
-    --sidebar-primary: 0 0% 20%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 0 0% 25%;
-    --sidebar-accent-foreground: 0 0% 100%;
-    --sidebar-border: 0 0% 90%;
-    --sidebar-ring: 0 0% 20%;
+    --sidebar-background: 270 30% 97%;
+    --sidebar-foreground: 0 0% 30%;
+    --sidebar-primary: 25 75% 75%;
+    --sidebar-primary-foreground: 0 0% 20%;
+    --sidebar-accent: 140 30% 70%;
+    --sidebar-accent-foreground: 0 0% 20%;
+    --sidebar-border: 270 30% 90%;
+    --sidebar-ring: 25 75% 70%;
   }
 
   /* Custom Wedding Animations */
@@ -145,10 +145,10 @@
 
   @keyframes goldGlow {
     0%, 100% {
-      box-shadow: 0 0 20px rgba(51, 51, 51, 0.2);
+      box-shadow: 0 0 20px rgba(246, 179, 168, 0.3);
     }
     50% {
-      box-shadow: 0 0 40px rgba(51, 51, 51, 0.3);
+      box-shadow: 0 0 40px rgba(246, 179, 168, 0.5);
     }
   }
 
@@ -188,7 +188,7 @@
   body {
     @apply text-foreground font-body;
     font-family: var(--font-body);
-    background-color: hsl(0, 0%, 100%);
+    background: linear-gradient(180deg, hsl(340, 40%, 97%) 0%, hsl(270, 30%, 97%) 100%);
     position: relative;
     min-height: 100vh;
     margin: 0;
@@ -203,7 +203,7 @@
     right: 0;
     bottom: 0;
     background: url('https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=600&auto=format&fit=crop&q=60') center/cover no-repeat;
-    opacity: 0.05;
+    opacity: 0.03;
     z-index: 0;
   }
 
@@ -214,8 +214,8 @@
     left: 0;
     right: 0;
     height: 40%;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, transparent 100%);
-    opacity: 0.6;
+    background: linear-gradient(180deg, rgba(255, 240, 245, 0.4) 0%, transparent 100%);
+    opacity: 0.5;
     z-index: 0;
     pointer-events: none;
   }
@@ -296,7 +296,7 @@
   }
 
   .hover-glow:hover {
-    box-shadow: 0 0 30px rgba(51, 51, 51, 0.3);
+    box-shadow: 0 0 30px rgba(246, 179, 168, 0.4);
   }
 
   .gold-underline {
@@ -306,7 +306,7 @@
   .gold-underline::after {
     content: '';
     @apply absolute bottom-0 left-0 h-0.5;
-    background-color: hsl(0, 0%, 20%);
+    background-color: hsl(25, 75%, 70%);
     width: 0;
     transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -322,8 +322,8 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: radial-gradient(circle at top left, rgba(0,0,0,0.05), transparent 60%),
-                radial-gradient(circle at bottom right, rgba(0,0,0,0.05), transparent 60%);
+    background: radial-gradient(circle at top left, rgba(255, 220, 235, 0.3), transparent 60%),
+                radial-gradient(circle at bottom right, rgba(224, 176, 255, 0.25), transparent 60%);
     z-index: 1;
     pointer-events: none;
   }
@@ -340,10 +340,10 @@
 
   /* Glass Morphism Effect */
   .glass-effect {
-    background: rgba(255, 255, 255, 0.85);
+    background: rgba(255, 250, 252, 0.85);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(51, 51, 51, 0.1);
+    border: 1px solid rgba(246, 179, 168, 0.2);
   }
 
   /* Clean Mobile Styles */
@@ -413,12 +413,12 @@
   }
 
   ::-webkit-scrollbar-thumb {
-    background-color: rgba(51, 51, 51, 0.3);
+    background-color: rgba(246, 179, 168, 0.4);
     @apply rounded-full;
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    background-color: rgba(51, 51, 51, 0.5);
+    background-color: rgba(246, 179, 168, 0.6);
   }
 
   /* Remove any unwanted borders */
@@ -446,7 +446,7 @@
     outline-offset: 2px;
   }
 
-  /* Modern Dark Gray Button with Glow */
+  /* Modern Pastel Button with Glow */
   .shadow__btn {
     padding: 10px 20px;
     border: none;
@@ -459,7 +459,7 @@
     transition: 0.5s;
     transition-property: box-shadow;
     background: hsl(var(--primary));
-    box-shadow: 0 0 25px rgba(51, 51, 51, 0.3);
+    box-shadow: 0 0 25px rgba(246, 179, 168, 0.4);
   }
 
   .shadow__btn:hover {
@@ -525,10 +525,10 @@
     animation-play-state: paused;
   }
 
-  /* Alternating Section Backgrounds - White & Gray Theme */
+  /* Alternating Section Backgrounds - Soft Pastel Theme */
   .section-pastel-blue {
-    background-color: hsl(0, 0%, 100%);
-    color: hsl(0, 0%, 20%);
+    background: linear-gradient(135deg, hsl(200, 40%, 96%), hsl(180, 35%, 95%));
+    color: hsl(0, 0%, 30%);
     position: relative;
     overflow: hidden;
   }
@@ -539,8 +539,8 @@
   }
 
   .section-hard-blue {
-    background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 0%, 98%));
-    color: hsl(0, 0%, 20%);
+    background: linear-gradient(135deg, hsl(340, 40%, 96%), hsl(270, 30%, 96%));
+    color: hsl(0, 0%, 30%);
     position: relative;
     overflow: hidden;
   }
