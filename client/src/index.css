@@ -338,12 +338,37 @@
     z-index: 2;
   }
 
-  /* Glass Morphism Effect */
+  /* Glass Morphism Effect - Pastel Containers */
   .glass-effect {
     background: rgba(255, 250, 252, 0.85);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(246, 179, 168, 0.2);
+  }
+
+  /* Pastel Glass Containers */
+  .glass-lavender {
+    background: rgba(237, 225, 245, 0.75);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+
+  .glass-peach {
+    background: rgba(255, 235, 225, 0.75);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+
+  .glass-mint {
+    background: rgba(225, 245, 235, 0.75);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+
+  .glass-sky {
+    background: rgba(230, 240, 250, 0.75);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
   }
 
   /* Clean Mobile Styles */

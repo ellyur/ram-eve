@@ -19,7 +19,7 @@ const HashtagGiftsSection = () => {
       <div className="max-w-4xl mx-auto relative z-10 space-y-12">
         {/* Oh Snap! Section */}
         <motion.div 
-          className="bg-card/30 border border-border rounded-xl p-8 shadow-soft hover-elegant transition-all duration-500 text-center"
+          className="glass-sky border border-border rounded-xl p-8 shadow-soft hover-elegant transition-all duration-500 text-center"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.5 }}
@@ -46,7 +46,7 @@ const HashtagGiftsSection = () => {
           </motion.h2>
 
           <motion.div
-            className="bg-card/20 border border-border/50 rounded-xl p-6 max-w-2xl mx-auto"
+            className="glass-mint border border-border/50 rounded-xl p-6 max-w-2xl mx-auto"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.9 }}
@@ -70,7 +70,7 @@ const HashtagGiftsSection = () => {
 
         {/* Gifts Section */}
         <motion.div 
-          className="bg-card/30 border border-border rounded-xl p-8 shadow-soft hover-elegant transition-all duration-500 text-center"
+          className="glass-peach border border-border rounded-xl p-8 shadow-soft hover-elegant transition-all duration-500 text-center"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.7 }}
@@ -97,7 +97,7 @@ const HashtagGiftsSection = () => {
           </motion.h2>
 
           <motion.div
-            className="bg-card/20 border border-border/50 rounded-xl p-6 max-w-2xl mx-auto"
+            className="glass-mint border border-border/50 rounded-xl p-6 max-w-2xl mx-auto"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 1.1 }}

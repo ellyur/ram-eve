@@ -35,7 +35,7 @@ const DressCodeSection = () => {
             transition={{ duration: 0.8, ease: "easeOut", delay: 8.1 }}
             whileHover={{ scale: 1.02 }}
           >
-            <div className="bg-card/30 border border-border rounded-xl p-8 shadow-soft hover-elegant transition-all duration-500 h-full relative">
+            <div className="glass-peach border border-border rounded-xl p-8 shadow-soft hover-elegant transition-all duration-500 h-full relative">
               <div className="text-center">
                 <motion.div
                   initial={{ scale: 0.8 }}
@@ -81,7 +81,7 @@ const DressCodeSection = () => {
             transition={{ duration: 0.8, ease: "easeOut", delay: 8.4 }}
             whileHover={{ scale: 1.02 }}
           >
-            <div className="bg-card/30 border border-border rounded-xl p-8 shadow-soft hover-elegant transition-all duration-500 h-full relative">
+            <div className="glass-peach border border-border rounded-xl p-8 shadow-soft hover-elegant transition-all duration-500 h-full relative">
               <div className="text-center">
                 <motion.div
                   initial={{ scale: 0.8 }}
@@ -130,7 +130,7 @@ const DressCodeSection = () => {
           
           <div className="grid md:grid-cols-2 gap-6">
             {/* Principal Sponsors - Female */}
-            <div className="bg-card/20 rounded-xl p-6">
+            <div className="glass-mint rounded-xl p-6">
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 rounded-full bg-gold mt-2 flex-shrink-0"></div>
                 <div>
@@ -145,7 +145,7 @@ const DressCodeSection = () => {
             </div>
 
             {/* Principal Sponsors - Male */}
-            <div className="bg-card/20 rounded-xl p-6">
+            <div className="glass-mint rounded-xl p-6">
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 rounded-full bg-gold mt-2 flex-shrink-0"></div>
                 <div>
@@ -160,7 +160,7 @@ const DressCodeSection = () => {
             </div>
 
             {/* Guests */}
-            <div className="bg-card/20 rounded-xl p-6">
+            <div className="glass-mint rounded-xl p-6">
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 rounded-full bg-gold mt-2 flex-shrink-0"></div>
                 <div>
@@ -171,7 +171,7 @@ const DressCodeSection = () => {
             </div>
 
             {/* No Dark Colors */}
-            <div className="bg-card/20 rounded-xl p-6">
+            <div className="glass-mint rounded-xl p-6">
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 rounded-full bg-gold mt-2 flex-shrink-0"></div>
                 <div>

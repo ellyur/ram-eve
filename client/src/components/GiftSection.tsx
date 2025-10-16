@@ -35,7 +35,7 @@ const GiftSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut", delay: 10.1 }}
         >
-          <div className="bg-card/30 border border-border rounded-xl p-12 shadow-soft hover-elegant">
+          <div className="glass-lavender border border-border rounded-xl p-12 shadow-soft hover-elegant">
             {/* Icon */}
             <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-8">
               <Heart className="w-10 h-10 text-primary" />
@@ -66,7 +66,7 @@ const GiftSection = () => {
         >
           {/* GCash Payment */}
           <div>
-            <div className="bg-card/30 border border-border rounded-xl p-8 shadow-soft hover-elegant">
+            <div className="glass-mint border border-border rounded-xl p-8 shadow-soft hover-elegant">
               <h3 className="text-lg font-display font-semibold text-gold-bright mb-4 text-center">GCash</h3>
               <div className="text-center mb-4">
                 <img 

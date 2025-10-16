@@ -58,7 +58,7 @@ const VenueSection = () => {
         {venues.map((venue, index) => (
           <motion.div 
             key={index}
-            className="bg-card/30 border border-primary/20 rounded-3xl overflow-hidden shadow-lg"
+            className="glass-lavender border border-primary/20 rounded-3xl overflow-hidden shadow-lg"
             initial={animationsEnabled ? { opacity: 0, y: 30 } : { opacity: 1, y: 0 }}
             animate={{ opacity: 1, y: 0 }}
             transition={animationsEnabled ? { duration: 0.8, delay: 7.2 + (index * 0.3) } : { duration: 0 }}

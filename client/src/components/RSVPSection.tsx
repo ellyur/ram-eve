@@ -37,7 +37,7 @@ const RSVPSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={animationsEnabled ? { duration: 0.8, ease: "easeOut", delay: 11.1 } : { duration: 0 }}
         >
-          <div className="bg-card/30 border border-border rounded-xl p-12 shadow-soft hover-elegant">
+          <div className="glass-peach border border-border rounded-xl p-12 shadow-soft hover-elegant">
             {/* RSVP Deadline */}
             <div className="text-center mb-8">
               <div className="inline-flex items-center justify-center w-16 h-16 bg-primary/10 rounded-full mb-4">
