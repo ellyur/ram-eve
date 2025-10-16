@@ -1,7 +1,7 @@
 import { Heart, Gift, Home } from 'lucide-react';
 import { motion } from 'framer-motion';
-import qr1 from '@assets/qr1_1760626246219.jpg';
-import qr2 from '@assets/qr2_1760626246220.jpg';
+import qr1 from '@assets/qr1_1760626993003.jpg';
+import qr2 from '@assets/qr2_1760626993005.jpg';
 
 const GiftSection = () => {
   return (
