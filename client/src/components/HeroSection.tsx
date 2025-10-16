@@ -97,7 +97,7 @@ const HeroSection = () => {
                 <span></span>
                 <span></span>
                 <span className="bg-card"></span>
-                <span className="text-[#ffffff]">RSVP</span>
+                <span className="text-[#ffffff]" style={{ fontFamily: 'Boska, serif' }}>RSVP</span>
               </button>
             </a>
           </div>
