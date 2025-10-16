@@ -125,7 +125,7 @@ const HashtagGiftsSection = () => {
                 <img 
                   src={qr1}
                   alt="InstaPay QR Code 1"
-                  className="w-48 h-48 mx-auto object-contain"
+                  className="w-72 h-72 mx-auto object-contain"
                 />
               </div>
               <div className="bg-white/60 rounded-lg p-4">
@@ -133,7 +133,7 @@ const HashtagGiftsSection = () => {
                 <img 
                   src={qr2}
                   alt="InstaPay QR Code 2"
-                  className="w-48 h-48 mx-auto object-contain"
+                  className="w-72 h-72 mx-auto object-contain"
                 />
               </div>
             </div>
