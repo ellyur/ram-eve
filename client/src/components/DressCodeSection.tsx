@@ -59,9 +59,6 @@ const DressCodeSection = () => {
                       <h4 className="text-lg font-display font-medium text-foreground mb-3">
                         Women
                       </h4>
-                      <div className="inline-block px-4 py-2 bg-primary/10 rounded-full">
-                        <span className="text-sm font-normal text-foreground">PASTEL COLORS</span>
-                      </div>
                     </div>
                   </motion.div>
                   <motion.img 
@@ -96,9 +93,6 @@ const DressCodeSection = () => {
                       <h4 className="text-lg font-display font-medium text-foreground mb-3">
                         Men
                       </h4>
-                      <div className="inline-block px-4 py-2 bg-primary/10 rounded-full">
-                        <span className="text-sm font-normal text-foreground">PASTEL COLORS</span>
-                      </div>
                     </div>
                   </motion.div>
                   <motion.img 
@@ -147,9 +141,6 @@ const DressCodeSection = () => {
                       <h4 className="text-lg font-display font-medium text-foreground mb-3">
                         Women
                       </h4>
-                      <div className="inline-block px-4 py-2 bg-primary/10 rounded-full">
-                        <span className="text-sm font-normal text-foreground">PASTEL COLORS</span>
-                      </div>
                     </div>
                   </motion.div>
                   <motion.img 
@@ -184,9 +175,6 @@ const DressCodeSection = () => {
                       <h4 className="text-lg font-display font-medium text-foreground mb-3">
                         Men
                       </h4>
-                      <div className="inline-block px-4 py-2 bg-primary/10 rounded-full">
-                        <span className="text-sm font-normal text-foreground">PASTEL COLORS</span>
-                      </div>
                     </div>
                   </motion.div>
                   <motion.img 
@@ -332,7 +320,7 @@ const DressCodeSection = () => {
             </div>
 
             {/* Beach Footwear */}
-            <div className="bg-card/20 rounded-xl p-6 md:col-span-2">
+            <div className="rounded-xl p-6 md:col-span-2 bg-[#fafaf9]">
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 rounded-full bg-gold mt-2 flex-shrink-0"></div>
                 <div>
