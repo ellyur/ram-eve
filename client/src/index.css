@@ -9,72 +9,72 @@
     /* 70-20-10 Color Rule: Dreamy Pastel Theme */
     
     /* 70% PRIMARY - Soft Pastel Backgrounds (Almost White) */
-    --background: 340 40% 97%; /* Barely pink, almost white */
-    --foreground: 0 0% 30%; /* Soft charcoal text */
+    --background: 340 45% 95%; /* Soft blush pink background - visible but gentle */
+    --foreground: 0 0% 25%; /* Soft charcoal text */
 
     /* Card Colors - Primary Palette */
-    --card: 270 30% 97%; /* Ultra-light lavender cards */
-    --card-foreground: 25 10% 25%; /* Warm gray text on cards */
+    --card: 270 40% 94%; /* Light lavender cards - visible pastel */
+    --card-foreground: 25 15% 20%; /* Warm dark text on cards */
 
     /* Popover Colors - Primary Palette */
-    --popover: 0 0% 98%; /* Near-white popover */
-    --popover-foreground: 0 0% 30%; /* Soft charcoal text */
+    --popover: 200 35% 95%; /* Light blue popover */
+    --popover-foreground: 0 0% 25%; /* Soft charcoal text */
 
     /* Brand Color */
-    --brand: 25 75% 70%; /* Soft peach - Main brand color */
+    --brand: 25 80% 68%; /* Soft peach - Main brand color */
     
     /* 20% SECONDARY - Soft Peach (Supporting) */
-    --primary: 25 75% 75%; /* Soft peach primary */
+    --primary: 25 80% 72%; /* Soft peach primary - more visible */
     --primary-foreground: 0 0% 20%; /* Dark text on peach */
 
     /* Secondary Colors - Supporting Palette */
-    --secondary: 200 50% 85%; /* Soft sky blue secondary */
-    --secondary-foreground: 0 0% 25%; /* Dark text on blue */
+    --secondary: 200 55% 82%; /* Soft sky blue secondary - more visible */
+    --secondary-foreground: 0 0% 20%; /* Dark text on blue */
 
     /* Muted Colors - Supporting Palette */
-    --muted: 140 20% 92%; /* Very light mint muted */
-    --muted-foreground: 0 0% 50%; /* Medium gray text */
+    --muted: 140 35% 88%; /* Light mint muted - more visible */
+    --muted-foreground: 0 0% 45%; /* Medium gray text */
 
     /* 10% ACCENT - Sage Green Accent (Standout Elements & CTAs) */
-    --accent: 140 30% 70%; /* Soft sage green accent */
-    --accent-foreground: 0 0% 20%; /* Dark text on green */
+    --accent: 140 40% 68%; /* Soft sage green accent - more visible */
+    --accent-foreground: 0 0% 15%; /* Dark text on green */
 
     /* Pastel Accent - for CTAs and highlights */
-    --gold: 25 75% 75%; /* Soft peach for buttons */
+    --gold: 25 80% 72%; /* Soft peach for buttons */
     --gold-foreground: 0 0% 20%; /* Dark text on peach */
     
     /* Bright Pastel - for emphasis */
-    --gold-bright: 25 80% 70%; /* Slightly brighter peach */
+    --gold-bright: 25 85% 68%; /* Slightly brighter peach */
 
     /* Natural Earth Palette - Soft pastel accents */
-    --rose-gold: 340 70% 88%; /* Soft blush pink */
-    --rose-gold-dark: 340 60% 75%; /* Medium blush */
-    --amber-glow: 48 90% 88%; /* Soft butter yellow */
-    --warm-light: 25 85% 90%; /* Warm peachy light */
+    --rose-gold: 340 75% 85%; /* Soft blush pink - more visible */
+    --rose-gold-dark: 340 65% 70%; /* Medium blush */
+    --amber-glow: 48 95% 85%; /* Soft butter yellow - more visible */
+    --warm-light: 25 90% 88%; /* Warm peachy light */
 
     /* Natural Accents Palette - Pastel colors */
-    --city-blue: 200 50% 82%; /* Soft sky blue */
-    --city-cyan: 180 40% 85%; /* Soft aqua */
-    --city-amber: 48 80% 85%; /* Soft yellow */
-    --city-purple: 270 50% 85%; /* Soft lavender */
+    --city-blue: 200 55% 78%; /* Soft sky blue - more visible */
+    --city-cyan: 180 50% 80%; /* Soft aqua - more visible */
+    --city-amber: 48 85% 80%; /* Soft yellow - more visible */
+    --city-purple: 270 55% 82%; /* Soft lavender - more visible */
 
     /* Destructive */
     --destructive: 0 65% 60%;
     --destructive-foreground: 0 0% 100%;
 
     /* Borders & Inputs */
-    --border: 270 30% 90%; /* Light lavender border */
-    --input: 0 0% 98%; /* Near-white input */
-    --ring: 25 75% 70%; /* Soft peach accent ring */
+    --border: 270 40% 85%; /* Light lavender border - more visible */
+    --input: 270 30% 96%; /* Light lavender input */
+    --ring: 25 80% 68%; /* Soft peach accent ring */
 
     /* Border Radius */
     --radius: 0.75rem;
 
     /* Pastel Gradients */
-    --gradient-elegant: linear-gradient(135deg, hsl(340, 40%, 97%), hsl(270, 30%, 97%));
-    --gradient-gold: linear-gradient(135deg, hsl(25, 75%, 75%), hsl(48, 80%, 80%));
-    --gradient-night: linear-gradient(180deg, hsl(340, 40%, 97%) 0%, hsl(200, 40%, 96%) 100%);
-    --gradient-bokeh: radial-gradient(ellipse at center, hsl(25, 75%, 75%) 0%, transparent 60%);
+    --gradient-elegant: linear-gradient(135deg, hsl(340, 45%, 94%), hsl(270, 40%, 94%));
+    --gradient-gold: linear-gradient(135deg, hsl(25, 80%, 72%), hsl(48, 85%, 78%));
+    --gradient-night: linear-gradient(180deg, hsl(340, 45%, 94%) 0%, hsl(200, 40%, 93%) 100%);
+    --gradient-bokeh: radial-gradient(ellipse at center, hsl(25, 80%, 72%) 0%, transparent 60%);
 
     /* Soft Pastel Shadows */
     --shadow-elegant: 0 20px 50px -10px rgba(246, 179, 168, 0.25);
@@ -92,14 +92,14 @@
     --transition-elegant: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 
-    --sidebar-background: 270 30% 97%;
-    --sidebar-foreground: 0 0% 30%;
-    --sidebar-primary: 25 75% 75%;
+    --sidebar-background: 270 40% 94%;
+    --sidebar-foreground: 0 0% 25%;
+    --sidebar-primary: 25 80% 72%;
     --sidebar-primary-foreground: 0 0% 20%;
-    --sidebar-accent: 140 30% 70%;
-    --sidebar-accent-foreground: 0 0% 20%;
-    --sidebar-border: 270 30% 90%;
-    --sidebar-ring: 25 75% 70%;
+    --sidebar-accent: 140 40% 68%;
+    --sidebar-accent-foreground: 0 0% 15%;
+    --sidebar-border: 270 40% 85%;
+    --sidebar-ring: 25 80% 68%;
   }
 
   /* Custom Wedding Animations */
@@ -188,7 +188,7 @@
   body {
     @apply text-foreground font-body;
     font-family: var(--font-body);
-    background: linear-gradient(180deg, hsl(340, 40%, 97%) 0%, hsl(270, 30%, 97%) 100%);
+    background: linear-gradient(180deg, hsl(340, 45%, 94%) 0%, hsl(270, 40%, 94%) 100%);
     position: relative;
     min-height: 100vh;
     margin: 0;
@@ -214,8 +214,8 @@
     left: 0;
     right: 0;
     height: 40%;
-    background: linear-gradient(180deg, rgba(255, 240, 245, 0.4) 0%, transparent 100%);
-    opacity: 0.5;
+    background: linear-gradient(180deg, rgba(255, 235, 245, 0.6) 0%, transparent 100%);
+    opacity: 0.6;
     z-index: 0;
     pointer-events: none;
   }
@@ -527,8 +527,8 @@
 
   /* Alternating Section Backgrounds - Soft Pastel Theme */
   .section-pastel-blue {
-    background: linear-gradient(135deg, hsl(200, 40%, 96%), hsl(180, 35%, 95%));
-    color: hsl(0, 0%, 30%);
+    background: linear-gradient(135deg, hsl(200, 45%, 92%), hsl(180, 40%, 90%));
+    color: hsl(0, 0%, 25%);
     position: relative;
     overflow: hidden;
   }
@@ -539,8 +539,8 @@
   }
 
   .section-hard-blue {
-    background: linear-gradient(135deg, hsl(340, 40%, 96%), hsl(270, 30%, 96%));
-    color: hsl(0, 0%, 30%);
+    background: linear-gradient(135deg, hsl(340, 45%, 92%), hsl(270, 40%, 92%));
+    color: hsl(0, 0%, 25%);
     position: relative;
     overflow: hidden;
   }
