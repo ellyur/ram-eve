@@ -218,16 +218,16 @@ const DressCodeSection = () => {
               <p className="text-xs text-foreground/70">Powder Blue</p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 rounded-full border-2 border-border shadow-md mb-2" style={{ backgroundColor: '#98D8C8' }}></div>
-              <p className="text-xs text-foreground/70">Mint Green</p>
+              <div className="w-16 h-16 rounded-full border-2 border-border shadow-md mb-2" style={{ backgroundColor: '#808000' }}></div>
+              <p className="text-xs text-foreground/70">Olive Green</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 rounded-full border-2 border-border shadow-md mb-2" style={{ backgroundColor: '#FFFACD' }}></div>
               <p className="text-xs text-foreground/70">Lemon Chiffon</p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 rounded-full border-2 border-border shadow-md mb-2" style={{ backgroundColor: '#F0E68C' }}></div>
-              <p className="text-xs text-foreground/70">Khaki</p>
+              <div className="w-16 h-16 rounded-full border-2 border-border shadow-md mb-2" style={{ backgroundColor: '#F5F5DC' }}></div>
+              <p className="text-xs text-foreground/70">Beige</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 rounded-full border-2 border-border shadow-md mb-2" style={{ backgroundColor: '#FFDAB9' }}></div>
