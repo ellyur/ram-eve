@@ -22,7 +22,7 @@ const VenueSection = () => {
     },
     {
       title: 'Reception',
-      name: 'La Familia Beach Resort',
+      name: 'La Famiglia Beach Resort',
       address: 'Atabay, Tobias Fornier, Antique',
       image: receptionImage,
       mapUrl: 'https://maps.app.goo.gl/H3AW3xWvqycf23yM6',
