@@ -92,19 +92,19 @@ const EntourageSection = () => {
             <h3 className="font-display italic text-lg text-black mb-4" data-testid="heading-secondary-sponsors">Secondary Sponsors</h3>
             <div className="grid grid-cols-3 gap-6">
               <div data-testid="section-candle">
-                <h4 className="font-normal italic text-xs text-black mb-1">Candle</h4>
+                <h4 className="font-normal italic text-xs text-primary mb-1">Candle</h4>
                 <p className="text-black font-normal italic text-xs">Sebastian Cruz</p>
                 <p className="text-black font-normal italic text-xs">Jr.</p>
                 <p className="text-black font-normal italic text-xs">Marina Isabel</p>
                 <p className="text-black font-normal italic text-xs">Cruz</p>
               </div>
               <div data-testid="section-veil">
-                <h4 className="font-normal italic text-xs text-black mb-1">Veil</h4>
+                <h4 className="font-normal italic text-xs text-primary mb-1">Veil</h4>
                 <p className="text-black font-normal italic text-xs">Adrian Morales</p>
                 <p className="text-black font-normal italic text-xs">Lucia Morales</p>
               </div>
               <div data-testid="section-cord">
-                <h4 className="font-normal italic text-xs text-black mb-1">Cord</h4>
+                <h4 className="font-normal italic text-xs text-primary mb-1">Cord</h4>
                 <p className="text-black font-normal italic text-xs">Marcus Santos</p>
                 <p className="text-black font-normal italic text-xs">Elena Grace</p>
                 <p className="text-black font-normal italic text-xs">Villanueva</p>
@@ -175,16 +175,16 @@ const EntourageSection = () => {
           {/* Bearers - 3 COLUMNS always */}
           <div className="grid grid-cols-3 gap-6">
             <div data-testid="section-ring-bearer">
-              <h4 className="font-normal italic text-xs text-black mb-1">Ring Bearer</h4>
+              <h4 className="font-normal italic text-xs text-primary mb-1">Ring Bearer</h4>
               <p className="text-black font-normal italic text-xs">Ethan Gabriel</p>
               <p className="text-black font-normal italic text-xs">Martinez</p>
             </div>
             <div data-testid="section-coin-bearer">
-              <h4 className="font-normal italic text-xs text-black mb-1">Coin Bearer</h4>
+              <h4 className="font-normal italic text-xs text-primary mb-1">Coin Bearer</h4>
               <p className="text-black font-normal italic text-xs">Liam Alexander Cruz</p>
             </div>
             <div data-testid="section-bible-bearer">
-              <h4 className="font-normal italic text-xs text-black mb-1">Bible Bearer</h4>
+              <h4 className="font-normal italic text-xs text-primary mb-1">Bible Bearer</h4>
               <p className="text-black font-normal italic text-xs">Noah Benjamin</p>
               <p className="text-black font-normal italic text-xs">Valdez</p>
             </div>
@@ -211,11 +211,11 @@ const EntourageSection = () => {
           {/* Little Bride and Groom - 2 COLUMNS always */}
           <div className="grid grid-cols-2 gap-8">
             <div data-testid="section-little-groom">
-              <h4 className="font-normal italic text-xs text-black mb-1">Little Groom</h4>
+              <h4 className="font-normal italic text-xs text-primary mb-1">Little Groom</h4>
               <p className="text-black font-normal italic text-xs">Sebastian Cruz</p>
             </div>
             <div data-testid="section-little-bride">
-              <h4 className="font-normal italic text-xs text-black mb-1">Little Bride</h4>
+              <h4 className="font-normal italic text-xs text-primary mb-1">Little Bride</h4>
               <p className="text-black font-normal italic text-xs">Isabella Sofia Morales</p>
             </div>
           </div>
@@ -223,7 +223,7 @@ const EntourageSection = () => {
           {/* Wedding Officiant - Single column */}
           <div data-testid="section-officiant">
             <p className="text-black font-normal italic text-xs">Rev. Father Miguel A. Santillan</p>
-            <h4 className="font-display italic text-sm text-black mt-1">Wedding Officiant</h4>
+            <h4 className="font-display italic text-sm text-primary mt-1">Wedding Officiant</h4>
           </div>
         </motion.div>
       </div>
