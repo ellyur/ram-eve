@@ -31,7 +31,7 @@ const HeroSection = () => {
             {animationsEnabled ? (
               <TypeAnimation
                 sequence={[
-                  'ram & eve\ninvitation',
+                  'RAM & EVE\ninvitation',
                   () => {
                     setShowElements(true);
                   }
@@ -54,7 +54,7 @@ const HeroSection = () => {
                 }}
                 className="typewriter-text"
               >
-                ram & eve
+                RAM & EVE
                 <br />
                 invitation
               </span>

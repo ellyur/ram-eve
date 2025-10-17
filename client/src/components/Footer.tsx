@@ -20,7 +20,7 @@ const Footer = () => {
           {/* Couple Names */}
           <div className="mb-4">
             <h2 className="text-3xl sm:text-4xl mb-3 text-foreground" style={{ fontFamily: 'Boska, serif', fontWeight: 300 }}>
-              ram & eve invitation
+              RAM & EVE invitation
             </h2>
             <p className="text-foreground/80 text-base"> Parish of San Nicholas de Tolentino | La Familia Beach Resort</p>
           </div>
@@ -43,7 +43,7 @@ const Footer = () => {
           <div className="mt-8">
             <p className="text-foreground/80 text-sm mb-2">With love and gratitude,</p>
             <p className="text-foreground text-lg" style={{ fontFamily: 'Boska, serif', fontWeight: 300 }}>
-              ram & eve
+              RAM & EVE
             </p>
           </div>
         </motion.div>
