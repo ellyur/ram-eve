@@ -26,17 +26,29 @@ const EntourageSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut", delay: 8.8 }}
         >
+          {/* Groom and Bride - 2 COLUMNS always */}
+          <div className="grid grid-cols-2 gap-8">
+            <div data-testid="section-groom">
+              <h3 className="font-display italic text-sm text-primary mb-2">Groom</h3>
+              <p className="text-black font-normal italic text-xs">Ralph Angelo S. Mabaquiao</p>
+            </div>
+            <div data-testid="section-bride">
+              <h3 className="font-display italic text-sm text-primary mb-2">Bride</h3>
+              <p className="text-black font-normal italic text-xs">Mary Evelyn Therese C. Dioso</p>
+            </div>
+          </div>
+
           {/* Parents Section - 2 COLUMNS always */}
           <div className="grid grid-cols-2 gap-8">
             <div data-testid="section-parents-groom">
               <h3 className="font-display italic text-sm text-primary mb-2">Parents of the Groom</h3>
-              <p className="text-black font-normal italic text-xs">Ricardo M. Santos</p>
-              <p className="text-black font-normal italic text-xs">Maria Elena T. Santos</p>
+              <p className="text-black font-normal italic text-xs">Lelan S. Mabaquiao</p>
+              <p className="text-black font-normal italic text-xs">Pilar S. Mabaquiao</p>
             </div>
             <div data-testid="section-parents-bride">
               <h3 className="font-display italic text-sm text-primary mb-2">Parents of the Bride</h3>
-              <p className="text-black font-normal italic text-xs">Antonio L. Reyes</p>
-              <p className="text-black font-normal italic text-xs">Carmela P. Reyes</p>
+              <p className="text-black font-normal italic text-xs">Rodolfo D. Dioso, Jr.</p>
+              <p className="text-black font-normal italic text-xs">Maria Ann C. Dioso</p>
             </div>
           </div>
 
@@ -44,46 +56,77 @@ const EntourageSection = () => {
           <div>
             <h3 className="font-display italic text-lg text-primary mb-4" data-testid="heading-principal-sponsors">Principal Sponsors</h3>
             <div className="grid grid-cols-2 gap-x-8 gap-y-0.5">
-              <p className="text-black font-normal italic text-xs">Hon. Roberto Villanueva</p>
-              <p className="text-black font-normal italic text-xs">Hon. Sofia Villanueva</p>
-              <p className="text-black font-normal italic text-xs">Atty. Miguel Fernandez</p>
-              <p className="text-black font-normal italic text-xs">Mrs. Isabella Cruz</p>
-              <p className="text-black font-normal italic text-xs">Dr. Benjamin Morales</p>
-              <p className="text-black font-normal italic text-xs">Mrs. Victoria Tan</p>
-              <p className="text-black font-normal italic text-xs">Engr. Carlos Mendoza</p>
-              <p className="text-black font-normal italic text-xs">Mrs. Angelica Lopez</p>
-              <p className="text-black font-normal italic text-xs">Dr. Felipe Ramos</p>
-              <p className="text-black font-normal italic text-xs">Mrs. Catherine Velasco</p>
-              <p className="text-black font-normal italic text-xs">Atty. Francisco Torres</p>
-              <p className="text-black font-normal italic text-xs">Dr. Natalie Flores</p>
-              <p className="text-black font-normal italic text-xs">Mr. Eduardo Castillo</p>
-              <p className="text-black font-normal italic text-xs">Dr. Veronica Aquino</p>
-              <p className="text-black font-normal italic text-xs">Engr. Samuel Rivera</p>
-              <p className="text-black font-normal italic text-xs">Mrs. Diana Martinez</p>
-              <p className="text-black font-normal italic text-xs">Judge Alfonso Domingo</p>
-              <p className="text-black font-normal italic text-xs">Mrs. Rebecca Santiago</p>
-              <p className="text-black font-normal italic text-xs">Atty. Gabriel Romero</p>
-              <p className="text-black font-normal italic text-xs">Mrs. Melissa Lim</p>
-              <p className="text-black font-normal italic text-xs">Dr. Vincent Gonzales</p>
-              <p className="text-black font-normal italic text-xs">Mrs. Stephanie Cruz</p>
-              <p className="text-black font-normal italic text-xs">Mr. Antonio Valdez</p>
-              <p className="text-black font-normal italic text-xs">Mrs. Christine Bautista</p>
-              <p className="text-black font-normal italic text-xs">Atty. Manuel Aguilar</p>
-              <p className="text-black font-normal italic text-xs">Mrs. Gloria Navarro</p>
-              <p className="text-black font-normal italic text-xs">Dr. Leonardo Santos</p>
-              <p className="text-black font-normal italic text-xs">Mrs. Rosario Ocampo</p>
-              <p className="text-black font-normal italic text-xs">Engr. Rodrigo Silva</p>
-              <p className="text-black font-normal italic text-xs">Mrs. Olivia Mendez</p>
-              <p className="text-black font-normal italic text-xs">Atty. Ernesto Cruz</p>
-              <p className="text-black font-normal italic text-xs">Mrs. Jennifer Pascual</p>
-              <p className="text-black font-normal italic text-xs">Dr. Marco Antonio</p>
-              <p className="text-black font-normal italic text-xs">Mrs. Clarissa Jimenez</p>
-              <p className="text-black font-normal italic text-xs">Mr. Julian Herrera</p>
-              <p className="text-black font-normal italic text-xs">Mrs. Amanda Delgado</p>
-              <p className="text-black font-normal italic text-xs">Atty. Rafael Salazar</p>
-              <p className="text-black font-normal italic text-xs">Mrs. Beatriz Campos</p>
-              <p className="text-black font-normal italic text-xs">Dr. Lorenzo Gutierrez</p>
-              <p className="text-black font-normal italic text-xs">Mrs. Monica Estrada</p>
+              <p className="text-black font-normal italic text-xs">Mrs. Mary Rigel J. Santos</p>
+              <p className="text-black font-normal italic text-xs">Mr. Roy Manansala</p>
+              <p className="text-black font-normal italic text-xs">Mrs. Vicky O. Sandoy</p>
+              <p className="text-black font-normal italic text-xs">Mr. Dennis M. Cazeñas</p>
+              <p className="text-black font-normal italic text-xs">Ms. Imelda Concepcion M. Cazeñas</p>
+              <p className="text-black font-normal italic text-xs">Mr. Raul M. Zamora</p>
+              <p className="text-black font-normal italic text-xs">Mrs. Marilou H. Sandoy</p>
+              <p className="text-black font-normal italic text-xs">Mr. Fredrick Koldop</p>
+              <p className="text-black font-normal italic text-xs">Dra. Gilda Grace T. Tumot</p>
+              <p className="text-black font-normal italic text-xs">Mr. Gerardo M. Cazeñas</p>
+              <p className="text-black font-normal italic text-xs">Mrs. Juliana O. Cepe</p>
+              <p className="text-black font-normal italic text-xs">Mr. Manolinio S. Sandoy</p>
+              <p className="text-black font-normal italic text-xs">Mrs. Ma. Dana C. Fernandez</p>
+              <p className="text-black font-normal italic text-xs">Mr. Erlan S. Mabaquiao</p>
+              <p className="text-black font-normal italic text-xs">Ms. Maria Fe Painaga</p>
+              <p className="text-black font-normal italic text-xs">Mr. Armin M. Cazeñas</p>
+              <p className="text-black font-normal italic text-xs">Mrs. Maerile P. Rodenas</p>
+              <p className="text-black font-normal italic text-xs">Mr. Lito Abrico</p>
+              <p className="text-black font-normal italic text-xs">Mrs. Glenda B. Mabaquiao</p>
+              <p className="text-black font-normal italic text-xs">Mr. Glen D. Fernando</p>
+              <p className="text-black font-normal italic text-xs">Mrs. Ma. Roda Gracia P. Amahido</p>
+              <p className="text-black font-normal italic text-xs">Mr. Joey Pon-an</p>
+              <p className="text-black font-normal italic text-xs">Mrs. Erlin Herrera</p>
+              <p className="text-black font-normal italic text-xs">Mr. Dante Victor Escorpion</p>
+              <p className="text-black font-normal italic text-xs">Mrs. Ma. Corona C. Molvizar</p>
+              <p className="text-black font-normal italic text-xs">Engr. Inocencio Dajao</p>
+              <p className="text-black font-normal italic text-xs">Mrs. Rowena S. Cabrillos</p>
+              <p className="text-black font-normal italic text-xs">Mr. Junel P. Kee</p>
+              <p className="text-black font-normal italic text-xs">Mrs. Luchie E. Labnao</p>
+              <p className="text-black font-normal italic text-xs">Mr. Rex Denila</p>
+              <p className="text-black font-normal italic text-xs">Mrs. Jane O. Regacho</p>
+              <p className="text-black font-normal italic text-xs">Engr. Noel S. Baguna</p>
+              <p className="text-black font-normal italic text-xs">Mrs. Ma. Fe R. Blanco</p>
+              <p className="text-black font-normal italic text-xs">Mr. Ernesto Pefianco Jr.</p>
+              <p className="text-black font-normal italic text-xs">Ms. Fe Gencianeo</p>
+              <p className="text-black font-normal italic text-xs">Mrs. Lilibeth J. Sta. Romana</p>
+              <p className="text-black font-normal italic text-xs">Mrs. Rhodora Pon-an</p>
+              <p className="text-black font-normal italic text-xs">Mrs. Mary Rose F. Umano</p>
+              <p className="text-black font-normal italic text-xs">Mrs. Anna Lee C. Nones</p>
+              <p className="text-black font-normal italic text-xs">Mrs. Agnes N. Lachica</p>
+              <p className="text-black font-normal italic text-xs">Mrs. Alma M. Secaluya</p>
+              <p className="text-black font-normal italic text-xs">Mrs. Catherine A. Arroyal</p>
+              <p className="text-black font-normal italic text-xs">Mrs. Cely V. Fernandez</p>
+              <p className="text-black font-normal italic text-xs">Mrs. Dalia Villanueva</p>
+              <p className="text-black font-normal italic text-xs">Mrs. Eva G.Metal</p>
+              <p className="text-black font-normal italic text-xs">Mrs. Lalaine F. Sobremisana</p>
+              <p className="text-black font-normal italic text-xs">Mrs. Ma. Elma C. Sarabia</p>
+              <p className="text-black font-normal italic text-xs">Mrs. Melanie Tangub</p>
+              <p className="text-black font-normal italic text-xs">Mrs. Ramona S. Parcon</p>
+              <p className="text-black font-normal italic text-xs">Mrs. Josefina G. De Jesus</p>
+              <p className="text-black font-normal italic text-xs">Mrs. Rema C. Gentolea</p>
+              <p className="text-black font-normal italic text-xs">Mrs. Rhea A. Bermejo</p>
+              <p className="text-black font-normal italic text-xs">Mrs. Ma. Theresa A. Adolacion</p>
+              <p className="text-black font-normal italic text-xs">Mrs. Pamela O. Estaris</p>
+              <p className="text-black font-normal italic text-xs">Ms. Purificacion Emanel</p>
+              <p className="text-black font-normal italic text-xs">Mrs. Sharon Rose D. Gallego</p>
+            </div>
+          </div>
+
+          {/* Best Man and Maids of Honor - 3 COLUMNS */}
+          <div className="grid grid-cols-3 gap-6">
+            <div data-testid="section-best-man">
+              <h4 className="font-normal italic text-xs text-primary mb-1">Best Man</h4>
+              <p className="text-black font-normal italic text-xs">Mr. Lee Genesis S. Mabaquiao</p>
+            </div>
+            <div data-testid="section-maid-honor" className="col-span-2">
+              <h4 className="font-normal italic text-xs text-primary mb-1">Maids of Honor</h4>
+              <div className="grid grid-cols-2 gap-x-4">
+                <p className="text-black font-normal italic text-xs">Ms. Laika E. Asejo</p>
+                <p className="text-black font-normal italic text-xs">Ms. Yuvie Rose R. Horfilla</p>
+              </div>
             </div>
           </div>
 
@@ -93,82 +136,43 @@ const EntourageSection = () => {
             <div className="grid grid-cols-3 gap-6">
               <div data-testid="section-candle">
                 <h4 className="font-normal italic text-xs text-primary mb-1">Candle</h4>
-                <p className="text-black font-normal italic text-xs">Sebastian Cruz</p>
-                <p className="text-black font-normal italic text-xs">Jr.</p>
-                <p className="text-black font-normal italic text-xs">Marina Isabel</p>
-                <p className="text-black font-normal italic text-xs">Cruz</p>
+                <p className="text-black font-normal italic text-xs">Ms. Nicole Annette C. Carluto</p>
+                <p className="text-black font-normal italic text-xs">Ar. Leomel A. Amaller</p>
               </div>
               <div data-testid="section-veil">
                 <h4 className="font-normal italic text-xs text-primary mb-1">Veil</h4>
-                <p className="text-black font-normal italic text-xs">Adrian Morales</p>
-                <p className="text-black font-normal italic text-xs">Lucia Morales</p>
+                <p className="text-black font-normal italic text-xs">Ms. Erika Jane C. Molvizar</p>
+                <p className="text-black font-normal italic text-xs">Ar. Niel Arby John C. Lut</p>
               </div>
               <div data-testid="section-cord">
                 <h4 className="font-normal italic text-xs text-primary mb-1">Cord</h4>
-                <p className="text-black font-normal italic text-xs">Marcus Santos</p>
-                <p className="text-black font-normal italic text-xs">Elena Grace</p>
-                <p className="text-black font-normal italic text-xs">Villanueva</p>
+                <p className="text-black font-normal italic text-xs">Engr. Jane Marie H. Sandoy</p>
+                <p className="text-black font-normal italic text-xs">Ar. Ruel P. Gabon</p>
               </div>
             </div>
           </div>
 
-          {/* Wedding Party - 3 COLUMNS always */}
-          <div className="grid grid-cols-3 gap-6">
-            <div data-testid="section-matron-honor">
-              <h4 className="font-normal italic text-xs text-primary mb-1">Matron of Honor</h4>
-              <p className="text-black font-normal italic text-xs">Isabela Marie</p>
-              <p className="text-black font-normal italic text-xs">Fernandez</p>
-            </div>
-            <div data-testid="section-best-man">
-              <h4 className="font-normal italic text-xs text-primary mb-1">Best Man</h4>
-              <p className="text-black font-normal italic text-xs">Cristian James</p>
-              <p className="text-black font-normal italic text-xs">Velasco</p>
-            </div>
-            <div data-testid="section-maid-honor">
-              <h4 className="font-normal italic text-xs text-primary mb-1">Maid of Honor</h4>
-              <p className="text-black font-normal italic text-xs">Sofia Angelica Reyes</p>
-            </div>
-          </div>
-
-          {/* Senior Members - 2 COLUMNS always */}
+          {/* Bridesmaids and Groomsmen - 2 COLUMNS always */}
           <div className="grid grid-cols-2 gap-8">
-            <div data-testid="section-senior-groomsmen">
-              <h4 className="font-display italic text-sm text-primary mb-2">Senior Groomsmen</h4>
-              <p className="text-black font-normal italic text-xs">Gabriel Antonio Mendez</p>
-              <p className="text-black font-normal italic text-xs">Lucas Santiago</p>
-              <p className="text-black font-normal italic text-xs">Diego Alexander Cruz</p>
-              <p className="text-black font-normal italic text-xs">Rafael Vicente Flores</p>
-              <p className="text-black font-normal italic text-xs">Nicolas Emmanuel</p>
-              <p className="text-black font-normal italic text-xs">Marco Sebastian Torres</p>
+            <div data-testid="section-groomsmen">
+              <h4 className="font-display italic text-sm text-primary mb-2">Groomsmen</h4>
+              <p className="text-black font-normal italic text-xs">Gibie T. Tumot</p>
+              <p className="text-black font-normal italic text-xs">Paul Patrick O. Estaris</p>
+              <p className="text-black font-normal italic text-xs">John Patrick C. Añasco</p>
+              <p className="text-black font-normal italic text-xs">Harvey B. Mabaquiao</p>
+              <p className="text-black font-normal italic text-xs">Jed T. Mabaquiao</p>
+              <p className="text-black font-normal italic text-xs">Rob Lanrei C. Mabaquiao</p>
+              <p className="text-black font-normal italic text-xs">Roque N. Sandoy III</p>
             </div>
-            <div data-testid="section-senior-bridesmaids">
-              <h4 className="font-display italic text-sm text-primary mb-2">Senior Bridesmaids</h4>
-              <p className="text-black font-normal italic text-xs">Valentina Castillo</p>
-              <p className="text-black font-normal italic text-xs">Camila Rivera</p>
-              <p className="text-black font-normal italic text-xs">Andrea Michelle Lopez</p>
-              <p className="text-black font-normal italic text-xs">Victoria Anne Santos</p>
-              <p className="text-black font-normal italic text-xs">Natalia Grace Martinez</p>
-              <p className="text-black font-normal italic text-xs">Daniela Sofia Gomez</p>
-            </div>
-          </div>
-
-          {/* Junior Members - 2 COLUMNS always */}
-          <div className="grid grid-cols-2 gap-8">
-            <div data-testid="section-junior-groomsmen">
-              <h4 className="font-display italic text-sm text-primary mb-2">Junior Groomsmen</h4>
-              <p className="text-black font-normal italic text-xs">Mateo Francisco Reyes</p>
-              <p className="text-black font-normal italic text-xs">Leonardo Jose Cruz</p>
-              <p className="text-black font-normal italic text-xs">Julian Miguel Ramos</p>
-              <p className="text-black font-normal italic text-xs">Andres Felipe Santos</p>
-              <p className="text-black font-normal italic text-xs">Santiago Luis Morales</p>
-            </div>
-            <div data-testid="section-junior-bridesmaids">
-              <h4 className="font-display italic text-sm text-primary mb-2">Junior Bridesmaids</h4>
-              <p className="text-black font-normal italic text-xs">Isabella Rose Delgado</p>
-              <p className="text-black font-normal italic text-xs">Gabriela Faith Torres</p>
-              <p className="text-black font-normal italic text-xs">Adriana Nicole Mendoza</p>
-              <p className="text-black font-normal italic text-xs">Carolina Joy Flores</p>
-              <p className="text-black font-normal italic text-xs">Mariana Hope Velasco</p>
+            <div data-testid="section-bridesmaids">
+              <h4 className="font-display italic text-sm text-primary mb-2">Bridesmaids</h4>
+              <p className="text-black font-normal italic text-xs">Erich Grace M. Zamora</p>
+              <p className="text-black font-normal italic text-xs">Cindy Joy S. Portugalete</p>
+              <p className="text-black font-normal italic text-xs">Stella Mariz S. Sandoy</p>
+              <p className="text-black font-normal italic text-xs">Mary Joy H. Sandoy</p>
+              <p className="text-black font-normal italic text-xs">Geraldine L. Brotonel</p>
+              <p className="text-black font-normal italic text-xs">Andre Gail C. Añasco</p>
+              <p className="text-black font-normal italic text-xs">Sofia Noami A. del Pilar</p>
             </div>
           </div>
 
@@ -176,17 +180,15 @@ const EntourageSection = () => {
           <div className="grid grid-cols-3 gap-6">
             <div data-testid="section-ring-bearer">
               <h4 className="font-normal italic text-xs text-primary mb-1">Ring Bearer</h4>
-              <p className="text-black font-normal italic text-xs">Ethan Gabriel</p>
-              <p className="text-black font-normal italic text-xs">Martinez</p>
+              <p className="text-black font-normal italic text-xs">Kye Xavier A. Dioso</p>
             </div>
             <div data-testid="section-coin-bearer">
               <h4 className="font-normal italic text-xs text-primary mb-1">Coin Bearer</h4>
-              <p className="text-black font-normal italic text-xs">Liam Alexander Cruz</p>
+              <p className="text-black font-normal italic text-xs">Kurth C. Empestan</p>
             </div>
             <div data-testid="section-bible-bearer">
               <h4 className="font-normal italic text-xs text-primary mb-1">Bible Bearer</h4>
-              <p className="text-black font-normal italic text-xs">Noah Benjamin</p>
-              <p className="text-black font-normal italic text-xs">Valdez</p>
+              <p className="text-black font-normal italic text-xs">Matthew Abraham C. Dioso</p>
             </div>
           </div>
 
@@ -194,36 +196,13 @@ const EntourageSection = () => {
           <div data-testid="section-flower-girls">
             <h4 className="font-display italic text-sm text-primary mb-2">Flower Girls</h4>
             <div className="grid grid-cols-2 gap-x-8">
-              <p className="text-black font-normal italic text-xs">Sophia Grace Navarro</p>
-              <p className="text-black font-normal italic text-xs">Emma Victoria Pascual</p>
-              <p className="text-black font-normal italic text-xs">Olivia Marie Gutierrez</p>
-              <p className="text-black font-normal italic text-xs">Mia Angelina Campos</p>
+              <p className="text-black font-normal italic text-xs">Rica Brielle P. Janeo</p>
+              <p className="text-black font-normal italic text-xs">Athena Wintle R. Cazeñas</p>
+              <p className="text-black font-normal italic text-xs">Sofia Cassandra O. Amara</p>
+              <p className="text-black font-normal italic text-xs">Theresa Claire M. Armendares</p>
+              <p className="text-black font-normal italic text-xs">Ashera Cianne M. Blanco</p>
+              <p className="text-black font-normal italic text-xs">Raijelle M. Sandoy</p>
             </div>
-          </div>
-
-          {/* Banner Bearers - Single column */}
-          <div data-testid="section-banner-bearers">
-            <h4 className="font-display italic text-sm text-primary mb-2">Banner Bearers</h4>
-            <p className="text-black font-normal italic text-xs">Lucas Emmanuel Rivera</p>
-            <p className="text-black font-normal italic text-xs">Matias Antonio Rivera</p>
-          </div>
-
-          {/* Little Bride and Groom - 2 COLUMNS always */}
-          <div className="grid grid-cols-2 gap-8">
-            <div data-testid="section-little-groom">
-              <h4 className="font-normal italic text-xs text-primary mb-1">Little Groom</h4>
-              <p className="text-black font-normal italic text-xs">Sebastian Cruz</p>
-            </div>
-            <div data-testid="section-little-bride">
-              <h4 className="font-normal italic text-xs text-primary mb-1">Little Bride</h4>
-              <p className="text-black font-normal italic text-xs">Isabella Sofia Morales</p>
-            </div>
-          </div>
-
-          {/* Wedding Officiant - Single column */}
-          <div data-testid="section-officiant">
-            <p className="text-black font-normal italic text-xs">Rev. Father Miguel A. Santillan</p>
-            <h4 className="font-display italic text-sm text-primary mt-1">Wedding Officiant</h4>
           </div>
         </motion.div>
       </div>
