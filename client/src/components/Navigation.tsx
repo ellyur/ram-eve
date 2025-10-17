@@ -3,6 +3,8 @@ import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
 import monogram from '@assets/Gemini_Generated_Image_in9gyyin9gyyin9g-removebg-preview_1760524104870.png';
 
+import monogram_black from "@assets/monogram-black.png";
+
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('');
@@ -108,7 +110,7 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <img src={monogram} alt="I&R" className="h-12 w-12 object-contain" />
+            <img src={monogram_black} alt="I&R" className="h-12 w-12 object-contain" />
           </div>
 
           {/* Desktop Navigation */}
@@ -143,7 +145,6 @@ const Navigation = () => {
           </div>
         </div>
       </div>
-
       {/* Mobile Navigation */}
       {isOpen && (
         <div className="md:hidden">
