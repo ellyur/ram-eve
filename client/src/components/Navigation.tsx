@@ -13,12 +13,12 @@ const Navigation = () => {
   const navItems = [
     { name: 'Our Moments', href: '#slideshow' },
     { name: 'Countdown', href: '#countdown' },
-    { name: 'Our Commitment', href: '#story' },
     { name: 'Timeline', href: '#timeline' },
     { name: 'Venue', href: '#venue' },
     { name: 'Entourage', href: '#entourage' },
     { name: 'Dress Code', href: '#dresscode' },
-    { name: 'Prenup Photos', href: '#prenup-photos' },
+    { name: 'Hashtag', href: '#hashtag-gifts' },
+    { name: 'Gifts', href: '#hashtag-gifts' },
     { name: 'RSVP', href: 'https://rustin-isabel-rsvp.replit.app' }
   ];
 
