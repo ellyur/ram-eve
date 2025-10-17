@@ -20,7 +20,7 @@ const HeroSection = () => {
         className="absolute inset-0 w-full h-full object-cover"
         style={{ objectPosition: 'center' }}
       >
-        <source src="https://res.cloudinary.com/dkazjosk5/video/upload/v1760693256/hero-background_cqzpou.mp4" type="video/mp4" />
+        <source src="https://res.cloudinary.com/dkazjosk5/video/upload/v1760704596/Video_Generation_Smooth_Animation_From_Air_fl6nfm.mp4" type="video/mp4" />
       </video>
       {/* Cinematic gradient overlay for better text readability */}
       <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70"></div>
