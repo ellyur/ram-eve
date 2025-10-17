@@ -83,7 +83,7 @@ const Index = () => {
         data-testid="background-audio"
       >
         <source
-          src="https://res.cloudinary.com/do4iuaiea/video/upload/v1760599475/ytmp3free.cc_adie-tahanan-lyrics-youtubemp3free.org_kwrlvo.mp3"
+          src="https://res.cloudinary.com/dkazjosk5/video/upload/v1760693251/ytmp3free.cc_tiana-major9-earthgang-collide-lyrics-youtubemp3free.org_aw7z4z.mp3"
           type="audio/mpeg"
         />
         Your browser does not support the audio element.
