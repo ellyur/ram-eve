@@ -15,7 +15,7 @@ const VenueSection = () => {
       address: 'Tobias Fornier, Antique',
       image: ceremonyImage,
       mapUrl: 'https://maps.app.goo.gl/MSMghL3HzjWkYKMU7',
-      mapEmbed: 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15698.4!2d122.01!3d10.41!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33aed89e89e89e89%3A0x1234567890abcdef!2sParish%20of%20San%20Nicholas%20de%20Tolentino%2C%20Tobias%20Fornier%2C%20Antique!5e0!3m2!1sen!2sph!4v1699999999999!5m2!1sen!2sph',
+      mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3922.7873809030675!2d121.94412330000002!3d10.5174059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33ae13817b3a2051%3A0x42eae0279e256bf4!2sParish%20of%20San%20Nicolas%20de%20Tolentino!5e0!3m2!1sen!2sph!4v1760694241756!5m2!1sen!2sph',
       description: 'Join us at the Parish of San Nicholas de Tolentino for our sacred wedding ceremony. This beautiful church will witness our vows of eternal love as we begin our journey together.',
       details: 'The ceremony begins promptly at 3:30 PM. Please arrive by 3:00 PM to be seated. Dress code: Pastel Colors.',
       startTime: '3:30 PM'
@@ -26,7 +26,7 @@ const VenueSection = () => {
       address: 'Atabay, Tobias Fornier, Antique',
       image: receptionImage,
       mapUrl: 'https://maps.app.goo.gl/H3AW3xWvqycf23yM6',
-      mapEmbed: 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15698.4!2d122.01!3d10.41!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33aed89e89e89e89%3A0xfedcba0987654321!2sLa%20Familia%20Beach%20Resort%2C%20Atabay%2C%20Tobias%20Fornier%2C%20Antique!5e0!3m2!1sen!2sph!4v1699999999999!5m2!1sen!2sph',
+      mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3922.6611604464915!2d121.94520159999999!3d10.5273314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33ae15000a6b011d%3A0x5ddcadddc3e1776b!2sLa%20Familia%20Resort!5e0!3m2!1sen!2sph!4v1760694280006!5m2!1sen!2sph',
       description: 'Celebrate with us at La Familia Beach Resort, a beautiful beachfront venue where we will share joy, laughter, and create unforgettable memories together.',
       details: 'Join us for grazing, photoshoot, and games starting at 4:30 PM, followed by dinner and reception activities at 7:00 PM.',
       startTime: '4:30 PM'
