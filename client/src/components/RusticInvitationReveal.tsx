@@ -85,9 +85,7 @@ const RusticInvitationReveal = ({ animationsEnabled }: RusticInvitationRevealPro
             <p 
               className="text-lg md:text-xl text-foreground/90 leading-relaxed mb-6 italic"
               style={{ fontFamily: 'Georgia, serif' }}
-            >
-              Come witness the moment we tie the knot and start our greatest adventure together
-            </p>
+            >Come witness the moment as we tie the knot and start our greatest adventure together</p>
 
             <div
               className="text-base md:text-lg text-foreground/80"
