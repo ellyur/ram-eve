@@ -113,7 +113,7 @@ const EntourageSection = () => {
               <p className="text-black font-normal italic text-[10px]">Engr. Noel S. Baguna</p>
               <p className="text-black font-normal italic text-[10px]">Mrs. Sharon Rose D. Gallego</p>
               <p className="text-black font-normal italic text-[10px]">Mr. Ernesto C. Pefianco Jr.</p>
-              <p className="text-black font-normal italic text-[10px]">Ms. Imelda Concepciom M. Cazeñas</p>
+              <p className="text-black font-normal italic text-[10px]">Ms. Imelda Conception M. Cazeñas</p>
             </div>
           </div>
 
