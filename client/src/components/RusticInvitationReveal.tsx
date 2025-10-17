@@ -114,14 +114,14 @@ const RusticInvitationReveal = ({ animationsEnabled }: RusticInvitationRevealPro
         <div className="absolute -bottom-4 left-1/2 transform -translate-x-1/2">
           <div className="relative">
             <svg width="60" height="60" viewBox="0 0 60 60">
-              <circle cx="30" cy="30" r="28" fill="black" opacity="0.9"/>
-              <circle cx="30" cy="30" r="24" fill="black"/>
+              <circle cx="30" cy="30" r="28" fill="hsl(340, 75%, 85%)" opacity="0.9"/>
+              <circle cx="30" cy="30" r="24" fill="hsl(340, 75%, 85%)"/>
             </svg>
             <div className="absolute inset-0 flex items-center justify-center">
               <img src={monogram_white} alt="I&R" className="h-16 w-16 object-contain" />
             </div>
             {/* Wax drips */}
-            <div className="absolute top-full left-1/2 transform -translate-x-1/2 w-4 h-3 bg-gradient-to-b from-white to-transparent rounded-b-full opacity-70"/>
+            <div className="absolute top-full left-1/2 transform -translate-x-1/2 w-4 h-3 bg-gradient-to-b from-[hsl(340,75%,85%)] to-transparent rounded-b-full opacity-70"/>
           </div>
         </div>
       </div>
