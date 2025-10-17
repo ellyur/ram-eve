@@ -29,12 +29,12 @@ const EntourageSection = () => {
           {/* Parents Section - 2 COLUMNS always */}
           <div className="grid grid-cols-2 gap-8">
             <div data-testid="section-parents-groom">
-              <h3 className="font-display italic text-sm text-black mb-2">Parents of the Groom</h3>
+              <h3 className="font-display italic text-sm text-primary mb-2">Parents of the Groom</h3>
               <p className="text-black font-normal italic text-xs">Ricardo M. Santos</p>
               <p className="text-black font-normal italic text-xs">Maria Elena T. Santos</p>
             </div>
             <div data-testid="section-parents-bride">
-              <h3 className="font-display italic text-sm text-black mb-2">Parents of the Bride</h3>
+              <h3 className="font-display italic text-sm text-primary mb-2">Parents of the Bride</h3>
               <p className="text-black font-normal italic text-xs">Antonio L. Reyes</p>
               <p className="text-black font-normal italic text-xs">Carmela P. Reyes</p>
             </div>
@@ -42,7 +42,7 @@ const EntourageSection = () => {
 
           {/* Principal Sponsors - 2 COLUMNS always */}
           <div>
-            <h3 className="font-display italic text-lg text-black mb-4" data-testid="heading-principal-sponsors">Principal Sponsors</h3>
+            <h3 className="font-display italic text-lg text-primary mb-4" data-testid="heading-principal-sponsors">Principal Sponsors</h3>
             <div className="grid grid-cols-2 gap-x-8 gap-y-0.5">
               <p className="text-black font-normal italic text-xs">Hon. Roberto Villanueva</p>
               <p className="text-black font-normal italic text-xs">Hon. Sofia Villanueva</p>
@@ -89,7 +89,7 @@ const EntourageSection = () => {
 
           {/* Secondary Sponsors - 3 COLUMNS always */}
           <div>
-            <h3 className="font-display italic text-lg text-black mb-4" data-testid="heading-secondary-sponsors">Secondary Sponsors</h3>
+            <h3 className="font-display italic text-lg text-primary mb-4" data-testid="heading-secondary-sponsors">Secondary Sponsors</h3>
             <div className="grid grid-cols-3 gap-6">
               <div data-testid="section-candle">
                 <h4 className="font-normal italic text-xs text-primary mb-1">Candle</h4>
@@ -115,17 +115,17 @@ const EntourageSection = () => {
           {/* Wedding Party - 3 COLUMNS always */}
           <div className="grid grid-cols-3 gap-6">
             <div data-testid="section-matron-honor">
-              <h4 className="font-normal italic text-xs text-black mb-1">Matron of Honor</h4>
+              <h4 className="font-normal italic text-xs text-primary mb-1">Matron of Honor</h4>
               <p className="text-black font-normal italic text-xs">Isabela Marie</p>
               <p className="text-black font-normal italic text-xs">Fernandez</p>
             </div>
             <div data-testid="section-best-man">
-              <h4 className="font-normal italic text-xs text-black mb-1">Best Man</h4>
+              <h4 className="font-normal italic text-xs text-primary mb-1">Best Man</h4>
               <p className="text-black font-normal italic text-xs">Cristian James</p>
               <p className="text-black font-normal italic text-xs">Velasco</p>
             </div>
             <div data-testid="section-maid-honor">
-              <h4 className="font-normal italic text-xs text-black mb-1">Maid of Honor</h4>
+              <h4 className="font-normal italic text-xs text-primary mb-1">Maid of Honor</h4>
               <p className="text-black font-normal italic text-xs">Sofia Angelica Reyes</p>
             </div>
           </div>
@@ -133,7 +133,7 @@ const EntourageSection = () => {
           {/* Senior Members - 2 COLUMNS always */}
           <div className="grid grid-cols-2 gap-8">
             <div data-testid="section-senior-groomsmen">
-              <h4 className="font-display italic text-sm text-black mb-2">Senior Groomsmen</h4>
+              <h4 className="font-display italic text-sm text-primary mb-2">Senior Groomsmen</h4>
               <p className="text-black font-normal italic text-xs">Gabriel Antonio Mendez</p>
               <p className="text-black font-normal italic text-xs">Lucas Santiago</p>
               <p className="text-black font-normal italic text-xs">Diego Alexander Cruz</p>
@@ -142,7 +142,7 @@ const EntourageSection = () => {
               <p className="text-black font-normal italic text-xs">Marco Sebastian Torres</p>
             </div>
             <div data-testid="section-senior-bridesmaids">
-              <h4 className="font-display italic text-sm text-black mb-2">Senior Bridesmaids</h4>
+              <h4 className="font-display italic text-sm text-primary mb-2">Senior Bridesmaids</h4>
               <p className="text-black font-normal italic text-xs">Valentina Castillo</p>
               <p className="text-black font-normal italic text-xs">Camila Rivera</p>
               <p className="text-black font-normal italic text-xs">Andrea Michelle Lopez</p>
@@ -155,7 +155,7 @@ const EntourageSection = () => {
           {/* Junior Members - 2 COLUMNS always */}
           <div className="grid grid-cols-2 gap-8">
             <div data-testid="section-junior-groomsmen">
-              <h4 className="font-display italic text-sm text-black mb-2">Junior Groomsmen</h4>
+              <h4 className="font-display italic text-sm text-primary mb-2">Junior Groomsmen</h4>
               <p className="text-black font-normal italic text-xs">Mateo Francisco Reyes</p>
               <p className="text-black font-normal italic text-xs">Leonardo Jose Cruz</p>
               <p className="text-black font-normal italic text-xs">Julian Miguel Ramos</p>
@@ -163,7 +163,7 @@ const EntourageSection = () => {
               <p className="text-black font-normal italic text-xs">Santiago Luis Morales</p>
             </div>
             <div data-testid="section-junior-bridesmaids">
-              <h4 className="font-display italic text-sm text-black mb-2">Junior Bridesmaids</h4>
+              <h4 className="font-display italic text-sm text-primary mb-2">Junior Bridesmaids</h4>
               <p className="text-black font-normal italic text-xs">Isabella Rose Delgado</p>
               <p className="text-black font-normal italic text-xs">Gabriela Faith Torres</p>
               <p className="text-black font-normal italic text-xs">Adriana Nicole Mendoza</p>
@@ -192,7 +192,7 @@ const EntourageSection = () => {
 
           {/* Flower Girls - 2 COLUMNS always */}
           <div data-testid="section-flower-girls">
-            <h4 className="font-display italic text-sm text-black mb-2">Flower Girls</h4>
+            <h4 className="font-display italic text-sm text-primary mb-2">Flower Girls</h4>
             <div className="grid grid-cols-2 gap-x-8">
               <p className="text-black font-normal italic text-xs">Sophia Grace Navarro</p>
               <p className="text-black font-normal italic text-xs">Emma Victoria Pascual</p>
@@ -203,7 +203,7 @@ const EntourageSection = () => {
 
           {/* Banner Bearers - Single column */}
           <div data-testid="section-banner-bearers">
-            <h4 className="font-display italic text-sm text-black mb-2">Banner Bearers</h4>
+            <h4 className="font-display italic text-sm text-primary mb-2">Banner Bearers</h4>
             <p className="text-black font-normal italic text-xs">Lucas Emmanuel Rivera</p>
             <p className="text-black font-normal italic text-xs">Matias Antonio Rivera</p>
           </div>
