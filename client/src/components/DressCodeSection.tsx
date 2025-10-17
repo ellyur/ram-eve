@@ -218,7 +218,7 @@ const DressCodeSection = () => {
               <p className="text-xs text-foreground/70">Powder Blue</p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 rounded-full border-2 border-border shadow-md mb-2" style={{ backgroundColor: '#808000' }}></div>
+              <div className="w-16 h-16 rounded-full border-2 border-border shadow-md mb-2" style={{ backgroundColor: '#C1D5A4' }}></div>
               <p className="text-xs text-foreground/70">Olive Green</p>
             </div>
             <div className="text-center">
