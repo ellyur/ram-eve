@@ -204,6 +204,7 @@ const EntourageSection = () => {
               <p className="text-black font-normal italic text-xs">Ashera Cianne M. Blanco</p>
               <p className="text-black font-normal italic text-xs">Raijelle M. Sandoy</p>
               <p className="text-black font-normal italic text-xs">Theresa Claire M. Armendares</p>
+              <p className="text-black font-normal italic text-xs">Gracelle Joy Sandoy</p>
             </div>
           </div>
         </motion.div>
