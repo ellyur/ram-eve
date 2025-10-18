@@ -195,10 +195,10 @@ const EntourageSection = () => {
             </div>
           </div>
 
-          {/* Flower Girls - 2 COLUMNS always */}
+          {/* Flower Girls - 1 COLUMN */}
           <div data-testid="section-flower-girls">
             <h4 className="font-display italic text-sm text-primary mb-2">Flower Girls</h4>
-            <div className="grid grid-cols-2 gap-x-8">
+            <div className="grid grid-cols-1">
               <p className="text-black font-normal italic text-xs">Rica Brielle P. Janeo</p>
               <p className="text-black font-normal italic text-xs">Athena Wintle R. Cazeñas</p>
               <p className="text-black font-normal italic text-xs">Sofia Cassandra O. Amara</p>
