@@ -78,24 +78,6 @@ const HeroSection = () => {
               </div>
             </div>
           </div>
-          
-          {/* RSVP Button */}
-          <div className={`transition-all duration-700 opacity-100 mt-[10px] mb-[10px] ${animationsEnabled ? 'animate-fade-scale' : ''}`}>
-            <a href="#rsvp">
-              <button
-                className="animated-rsvp-btn"
-                aria-label="RSVP to Wedding"
-                data-testid="button-rsvp-hero"
-              >
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span className="bg-card"></span>
-                <span className="text-[#ffffff]" style={{ fontFamily: 'Boska, serif' }}>RSVP</span>
-              </button>
-            </a>
-          </div>
         </div>
 
       </div>

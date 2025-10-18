@@ -91,7 +91,7 @@ const EntourageSection = () => {
               <p className="text-black font-normal italic text-[10px]">Mr. Manolinio A. Sandoy</p>
               <p className="text-black font-normal italic text-[10px]">Mrs. Eva G.Metal</p>
               <p className="text-black font-normal italic text-[10px]">Mr. Erlan S. Mabaquiao</p>
-              <p className="text-black font-normal italic text-[10px]">Mrs. Lalaine F. Sobremisana</p>
+              <p className="text-black font-normal italic text-[10px]">Mrs. Lalaine L. Sobremisana</p>
               <p className="text-black font-normal italic text-[10px]">Mr. Armin M. Cazeñas</p>
               <p className="text-black font-normal italic text-[10px]">Mrs. Ma. Elma C. Sarabia</p>
               <p className="text-black font-normal italic text-[10px]">Mr. Gerardo A. Sandoy</p>
@@ -113,7 +113,7 @@ const EntourageSection = () => {
               <p className="text-black font-normal italic text-[10px]">Engr. Noel S. Baguna</p>
               <p className="text-black font-normal italic text-[10px]">Mrs. Sharon Rose D. Gallego</p>
               <p className="text-black font-normal italic text-[10px]">Mr. Ernesto C. Pefianco Jr.</p>
-              <p className="text-black font-normal italic text-[10px]">Ms. Imelda Conception M. Cazeñas</p>
+              <p className="text-black font-normal italic text-[10px]">Ms. Imelda Concepcion M. Cazeñas</p>
             </div>
           </div>
 
