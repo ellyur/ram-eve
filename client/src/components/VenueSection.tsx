@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { useAnimationContext } from '@/contexts/AnimationContext';
 
 import ceremonyImage from "@assets/church.png";
-import receptionImage from "@assets/reception.png";
+import receptionImage from "@assets/reception.jpg";
 
 const VenueSection = () => {
   const { animationsEnabled } = useAnimationContext();
