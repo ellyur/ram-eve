@@ -181,8 +181,9 @@ Successfully migrated from Lovable to Replit environment:
   - Changed reception venue from "La Famiglia Beach Resort" to "ORR Beach Resort"
   - Updated reception address from "Atabay, Tobias Fornier, Antique" to "Banawon, Hamtic, Antique"
   - Updated Google Maps link to https://maps.app.goo.gl/j8PA8zWQQRNxL6tT8
+  - Updated Google Maps embed with correct preview location
   - Updated all references throughout the website:
-    - VenueSection: Reception venue name, address, and map link
+    - VenueSection: Reception venue name, address, map link, and embed preview
     - ScrollTriggeredTimeline: Event description for "Dinner / Reception Activities"
     - HeroSection: Venue display on hero section
     - Footer: Venue information in footer
