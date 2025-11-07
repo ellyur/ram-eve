@@ -73,7 +73,7 @@ const HeroSection = () => {
                   Parish of San Nicholas de Tolentino
                 </p>
                 <p className="text-base sm:text-lg text-white font-light tracking-wide font-times">
-                  La Familia Beach Resort
+                  ORR Beach Resort
                 </p>
               </div>
             </div>

@@ -22,12 +22,12 @@ const VenueSection = () => {
     },
     {
       title: 'Reception',
-      name: 'La Famiglia Beach Resort',
-      address: 'Atabay, Tobias Fornier, Antique',
+      name: 'ORR Beach Resort',
+      address: 'Banawon, Hamtic, Antique',
       image: receptionImage,
-      mapUrl: 'https://maps.app.goo.gl/H3AW3xWvqycf23yM6',
-      mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3922.6611604464915!2d121.94520159999999!3d10.5273314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33ae15000a6b011d%3A0x5ddcadddc3e1776b!2sLa%20Familia%20Resort!5e0!3m2!1sen!2sph!4v1760694280006!5m2!1sen!2sph',
-      description: 'Celebrate with us at La Familia Beach Resort, a beautiful beachfront venue where we will share joy, laughter, and create unforgettable memories together.',
+      mapUrl: 'https://maps.app.goo.gl/j8PA8zWQQRNxL6tT8',
+      mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3924.271844726267!2d121.94107007587273!3d10.437992089768694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33ae12d49fe4cb5b%3A0x4c0e7d3e7b9e3c5a!2sORR%20Beach%20Resort!5e0!3m2!1sen!2sph!4v1699999999999!5m2!1sen!2sph',
+      description: 'Celebrate with us at ORR Beach Resort, a beautiful beachfront venue where we will share joy, laughter, and create unforgettable memories together.',
       details: 'Join us for grazing, photoshoot, and games starting at 4:30 PM, followed by dinner and reception activities at 7:00 PM.',
       startTime: '4:30 PM'
     }

@@ -25,7 +25,7 @@ const TimelineCard: React.FC<TimelineCardProps> = ({ timelineEvent, i }) => {
             "Guest Arrival": "We highly encourage you to arrive by 3:00 PM. Please be seated before the ceremony starts at 3:30 PM.",
             "Wedding Ceremony": "Witness our vows and the beginning of our journey together as we exchange rings and promises at the Parish of San Nicholas de Tolentino.",
             "Grazing / Photoshoot / Games": "Enjoy food, capture beautiful moments with the newlyweds and wedding party, and participate in fun activities.",
-            "Dinner / Reception Activities": "Join us at La Familia Beach Resort for dinner, heartfelt toasts, and celebration as we share this joyous occasion.",
+            "Dinner / Reception Activities": "Join us at ORR Beach Resort for dinner, heartfelt toasts, and celebration as we share this joyous occasion.",
             "After Party with Live Band": "Dance the night away with live music! The celebration continues with an exciting after party."
         };
         return descriptions[eventName] || "Join us for this special moment in our lives.";

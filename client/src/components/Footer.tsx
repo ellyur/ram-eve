@@ -22,7 +22,7 @@ const Footer = () => {
             <h2 className="text-3xl sm:text-4xl mb-3 text-foreground" style={{ fontFamily: 'Boska, serif', fontWeight: 300 }}>
               RAM & EVE
             </h2>
-            <p className="text-foreground/80 text-base"> Parish of San Nicholas de Tolentino | La Familia Beach Resort</p>
+            <p className="text-foreground/80 text-base"> Parish of San Nicholas de Tolentino | ORR Beach Resort</p>
           </div>
 
           {/* Heart Divider */}

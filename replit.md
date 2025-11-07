@@ -177,3 +177,14 @@ Successfully migrated from Lovable to Replit environment:
   - Removed MemorableMomentsSection component from Index page (Save the Date Photos masonry gallery)
   - Updated page flow: Hero → Invitation → Countdown → Cover → Timeline → Venue → DressCode → Hashtag/Gifts → RSVP → Entourage → FAQ → Footer
   - Website now optimized for weddings without prenup photography
+- **2025-11-07**: Updated reception venue information:
+  - Changed reception venue from "La Famiglia Beach Resort" to "ORR Beach Resort"
+  - Updated reception address from "Atabay, Tobias Fornier, Antique" to "Banawon, Hamtic, Antique"
+  - Updated Google Maps link to https://maps.app.goo.gl/j8PA8zWQQRNxL6tT8
+  - Updated all references throughout the website:
+    - VenueSection: Reception venue name, address, and map link
+    - ScrollTriggeredTimeline: Event description for "Dinner / Reception Activities"
+    - HeroSection: Venue display on hero section
+    - Footer: Venue information in footer
+    - index.html: Meta description for SEO
+  - Verified no remaining references to "La Familia Beach Resort"
